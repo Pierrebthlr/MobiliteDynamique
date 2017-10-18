@@ -19,9 +19,20 @@ class BusMapViewController: UIViewController {
     @IBOutlet var busMap: MKMapView!
     override func viewDidLoad() {
         //let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
-        if let initialLocation = locationManager.location
-        {
-            centerMapOnLocation(location: initialLocation)
+        guard let initialLocation = locationManager.location
+            else {
+                let alert = UIAlertController(title: "Alert", message: "You have to start location", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+                return
+                
+        }
+        
+            self.centerMapOnLocation(location: initialLocation)
+            let pCSV = CSVparser()
+            let fCSV = pCSV.readDataFromCSV(fileName: "busstop",fileType: "csv")
+            print(fCSV)
+
             // show artwork on map
             let artwork = Artwork(title: "King David Kalakaua",
                                   locationName: "Waikiki Gateway Park",
@@ -30,15 +41,7 @@ class BusMapViewController: UIViewController {
         
             busMap.addAnnotation(artwork)
             busMap.delegate = self
-            let pCSV = CSVparser()
-            let fCSV = pCSV.readDataFromCSV(fileName: "busstop",fileType: "csv")
-            print(fCSV)
-        // Do any additional setup after loading the view.
-        }
-        else
-        {
-            
-        }
+        
         
     }
     

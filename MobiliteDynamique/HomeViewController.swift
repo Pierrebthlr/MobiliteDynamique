@@ -22,16 +22,17 @@ class HomeViewController: UIViewController {
     
     public let locationManager = LocationManager.shared
     public var locationList: [CLLocation] = []
+    
+    public var distance = Measurement(value: 0, unit: UnitLength.meters)
 
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         drawShadow(view: viewLeft)
         drawShadow(view: viewRight)
-        
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.color(fromHexString: "#FFFFFF")]
     }
 
     override func didReceiveMemoryWarning() {
@@ -63,7 +64,7 @@ class HomeViewController: UIViewController {
             dataLabel.text = "START"
             dataLabel.textColor = blueColor
             smiley.image = UIImage(named: "smiley_good.png")
-            //startCollectLocation()
+            startCollectLocation()
             
         }
         else {
@@ -71,9 +72,44 @@ class HomeViewController: UIViewController {
             dataLabel.textColor = redColor
             smiley.image = UIImage(named: "smiley_sad.png")
 
-            //stopCollectLocation()
+            stopCollectLocation()
         }
         
     }
+    
+    private func startCollectLocation() {
+        startLocationUpdates()
+    }
+    
+    private func startLocationUpdates() {
+        locationManager.delegate = self
+        locationManager.activityType = .fitness
+        locationManager.distanceFilter = 10
+        locationManager.startUpdatingLocation()
+    }
+    
+    
+    private func stopCollectLocation() {
+        locationManager.stopUpdatingLocation()
+    }
 
+
+}
+
+extension HomeViewController: CLLocationManagerDelegate {
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        for newLocation in locations {
+            let howRecent = newLocation.timestamp.timeIntervalSinceNow
+            guard newLocation.horizontalAccuracy < 20 && abs(howRecent) < 10 else { continue }
+            
+            if let lastLocation = locationList.last {
+                let delta = newLocation.distance(from: lastLocation)
+                distance = distance + Measurement(value: delta, unit: UnitLength.meters)
+            }
+            
+            locationList.append(newLocation)
+            print(newLocation)
+        }
+    }
 }

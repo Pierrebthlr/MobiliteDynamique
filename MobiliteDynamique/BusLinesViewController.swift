@@ -9,13 +9,16 @@
 import UIKit
 
 
-import UIKit
-
 
 class BusLinesViewController: UITableViewController {
     
     // MARK: - Properties
     public var busLines = SampleData.generatePlayersData()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.color(fromHexString: "#FFFFFF")]
+    }
     
     
 }
