@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80DA33BF1F826C0C003D9CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DA33BE1F826C0C003D9CD3 /* AppDelegate.swift */; };
-		80DA33C11F826C0C003D9CD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DA33C01F826C0C003D9CD3 /* ViewController.swift */; };
+		441D81E74C88FCF34CAE064F /* Pods_MobiliteDynamique.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97260A9B84A455958058C875 /* Pods_MobiliteDynamique.framework */; };
+		59E8BEF7F4E51B2AA83A51A9 /* Pods_MobiliteDynamique_MobiliteDynamiqueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100F6997A6421C7A59850D66 /* Pods_MobiliteDynamique_MobiliteDynamiqueUITests.framework */; };
+		6C0FD53A69E7915930E4ABF7 /* Pods_MobiliteDynamique_MobiliteDynamiqueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1436762D121BC6ACB4C9C83 /* Pods_MobiliteDynamique_MobiliteDynamiqueTests.framework */; };
+		8031789B1F8B862900C6A337 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031789A1F8B862900C6A337 /* LocationManager.swift */; };
+		803178A01F8B8F2400C6A337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031789F1F8B8F2400C6A337 /* AppDelegate.swift */; };
+		807E77411F8C37F900601C4C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E773F1F8C37F900601C4C /* libsqlite3.0.tbd */; };
+		807E77421F8C37F900601C4C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E77401F8C37F900601C4C /* libsqlite3.tbd */; };
+		80820CE01F9419F50054CD38 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80820CE11F9419F50054CD38 /* SQLite.framework */; };
+		80820CE31F94585B0054CD38 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80820CE21F94585B0054CD38 /* Artwork.swift */; };
+		80820CE51F9459D10054CD38 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80820CE41F9459D10054CD38 /* VCMapView.swift */; };
+		80B2585C1F96C43200105B07 /* BusLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2585B1F96C43200105B07 /* BusLinesViewController.swift */; };
+		80B2585E1F96C4F600105B07 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2585D1F96C4F600105B07 /* SampleData.swift */; };
+		80B258601F96C55B00105B07 /* BusLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2585F1F96C55B00105B07 /* BusLines.swift */; };
+		80CC844E1F8C69D300E2EE24 /* BusMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CC844D1F8C69D300E2EE24 /* BusMapViewController.swift */; };
+		80CC84501F8C6A8500E2EE24 /* StoryboardSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CC844F1F8C6A8500E2EE24 /* StoryboardSupport.swift */; };
+		80DA33C11F826C0C003D9CD3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DA33C01F826C0C003D9CD3 /* MainViewController.swift */; };
 		80DA33C41F826C0C003D9CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DA33C21F826C0C003D9CD3 /* Main.storyboard */; };
 		80DA33C61F826C0C003D9CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DA33C51F826C0C003D9CD3 /* Assets.xcassets */; };
 		80DA33C91F826C0C003D9CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DA33C71F826C0C003D9CD3 /* LaunchScreen.storyboard */; };
 		80DA33D41F826C0D003D9CD3 /* MobiliteDynamiqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DA33D31F826C0D003D9CD3 /* MobiliteDynamiqueTests.swift */; };
 		80DA33DF1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DA33DE1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.swift */; };
+		80E692901F8277750005D6D3 /* UserLocations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80E6928E1F8277750005D6D3 /* UserLocations.xcdatamodeld */; };
+		80E692971F827AFB0005D6D3 /* BusLines.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80E692951F827AFB0005D6D3 /* BusLines.xcdatamodeld */; };
+		91CB63AAAEF7D3115BFDAECE /* Pods_MobiliteDynamiqueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18700F0463A16EC6DFF5E712 /* Pods_MobiliteDynamiqueTests.framework */; };
+		CEED6E2B5002F00177DE1C95 /* Pods_MobiliteDynamiqueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5913620DEBE1752D63BDE7F /* Pods_MobiliteDynamiqueUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BF4DFD593C08257E7019A06 /* Pods-MobiliteDynamiqueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamiqueTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamiqueTests/Pods-MobiliteDynamiqueTests.release.xcconfig"; sourceTree = "<group>"; };
+		100F6997A6421C7A59850D66 /* Pods_MobiliteDynamique_MobiliteDynamiqueUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiliteDynamique_MobiliteDynamiqueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18700F0463A16EC6DFF5E712 /* Pods_MobiliteDynamiqueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiliteDynamiqueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C81AC796A72F05C2A621D0F /* Pods-MobiliteDynamique-MobiliteDynamiqueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamique-MobiliteDynamiqueUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamique-MobiliteDynamiqueUITests/Pods-MobiliteDynamique-MobiliteDynamiqueUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		597B8239BCDB42819E679B14 /* Pods-MobiliteDynamique-MobiliteDynamiqueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamique-MobiliteDynamiqueTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamique-MobiliteDynamiqueTests/Pods-MobiliteDynamique-MobiliteDynamiqueTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D74A827C787EF855C4FDCE2 /* Pods-MobiliteDynamiqueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamiqueUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamiqueUITests/Pods-MobiliteDynamiqueUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78DA376CAB8DE54B09AF1728 /* Pods-MobiliteDynamique-MobiliteDynamiqueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamique-MobiliteDynamiqueUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamique-MobiliteDynamiqueUITests/Pods-MobiliteDynamique-MobiliteDynamiqueUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8031789A1F8B862900C6A337 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		8031789F1F8B8F2400C6A337 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		807E773F1F8C37F900601C4C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		807E77401F8C37F900601C4C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		80820CE11F9419F50054CD38 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80820CE21F94585B0054CD38 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		80820CE41F9459D10054CD38 /* VCMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		80B258581F96BFFA00105B07 /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B2585B1F96C43200105B07 /* BusLinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusLinesViewController.swift; sourceTree = "<group>"; };
+		80B2585D1F96C4F600105B07 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		80B2585F1F96C55B00105B07 /* BusLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusLines.swift; sourceTree = "<group>"; };
+		80CC844D1F8C69D300E2EE24 /* BusMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusMapViewController.swift; sourceTree = "<group>"; };
+		80CC844F1F8C6A8500E2EE24 /* StoryboardSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardSupport.swift; sourceTree = "<group>"; };
 		80DA33BB1F826C0C003D9CD3 /* MobiliteDynamique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiliteDynamique.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80DA33BE1F826C0C003D9CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80DA33C01F826C0C003D9CD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80DA33C01F826C0C003D9CD3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		80DA33C31F826C0C003D9CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80DA33C51F826C0C003D9CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80DA33C81F826C0C003D9CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +84,16 @@
 		80DA33DA1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiliteDynamiqueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DA33DE1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiliteDynamiqueUITests.swift; sourceTree = "<group>"; };
 		80DA33E01F826C0D003D9CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E6928F1F8277750005D6D3 /* UserLocations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserLocations.xcdatamodel; sourceTree = "<group>"; };
+		80E692961F827AFB0005D6D3 /* BusLines.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusLines.xcdatamodel; sourceTree = "<group>"; };
+		97260A9B84A455958058C875 /* Pods_MobiliteDynamique.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiliteDynamique.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EFE1B85369B0EAA79E9F93 /* Pods-MobiliteDynamique.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamique.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamique/Pods-MobiliteDynamique.release.xcconfig"; sourceTree = "<group>"; };
+		9DBF64A7715D32899BC94577 /* Pods-MobiliteDynamiqueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamiqueTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamiqueTests/Pods-MobiliteDynamiqueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5913620DEBE1752D63BDE7F /* Pods_MobiliteDynamiqueUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiliteDynamiqueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FF255E7A010E448E251357 /* Pods-MobiliteDynamique-MobiliteDynamiqueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamique-MobiliteDynamiqueTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamique-MobiliteDynamiqueTests/Pods-MobiliteDynamique-MobiliteDynamiqueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E80D4FFA4116F67BC7685DB0 /* Pods-MobiliteDynamique.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamique.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamique/Pods-MobiliteDynamique.debug.xcconfig"; sourceTree = "<group>"; };
+		F1436762D121BC6ACB4C9C83 /* Pods_MobiliteDynamique_MobiliteDynamiqueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiliteDynamique_MobiliteDynamiqueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8B733E4C52B338D9DBB215 /* Pods-MobiliteDynamiqueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamiqueUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamiqueUITests/Pods-MobiliteDynamiqueUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +101,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80820CE01F9419F50054CD38 /* SQLite.framework in Frameworks */,
+				807E77411F8C37F900601C4C /* libsqlite3.0.tbd in Frameworks */,
+				807E77421F8C37F900601C4C /* libsqlite3.tbd in Frameworks */,
+				441D81E74C88FCF34CAE064F /* Pods_MobiliteDynamique.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0FD53A69E7915930E4ABF7 /* Pods_MobiliteDynamique_MobiliteDynamiqueTests.framework in Frameworks */,
+				91CB63AAAEF7D3115BFDAECE /* Pods_MobiliteDynamiqueTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +121,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E8BEF7F4E51B2AA83A51A9 /* Pods_MobiliteDynamique_MobiliteDynamiqueUITests.framework in Frameworks */,
+				CEED6E2B5002F00177DE1C95 /* Pods_MobiliteDynamiqueUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		338BD5A2B3D07DDC9630D56B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E80D4FFA4116F67BC7685DB0 /* Pods-MobiliteDynamique.debug.xcconfig */,
+				98EFE1B85369B0EAA79E9F93 /* Pods-MobiliteDynamique.release.xcconfig */,
+				D9FF255E7A010E448E251357 /* Pods-MobiliteDynamique-MobiliteDynamiqueTests.debug.xcconfig */,
+				597B8239BCDB42819E679B14 /* Pods-MobiliteDynamique-MobiliteDynamiqueTests.release.xcconfig */,
+				1C81AC796A72F05C2A621D0F /* Pods-MobiliteDynamique-MobiliteDynamiqueUITests.debug.xcconfig */,
+				78DA376CAB8DE54B09AF1728 /* Pods-MobiliteDynamique-MobiliteDynamiqueUITests.release.xcconfig */,
+				9DBF64A7715D32899BC94577 /* Pods-MobiliteDynamiqueTests.debug.xcconfig */,
+				0BF4DFD593C08257E7019A06 /* Pods-MobiliteDynamiqueTests.release.xcconfig */,
+				6D74A827C787EF855C4FDCE2 /* Pods-MobiliteDynamiqueUITests.debug.xcconfig */,
+				FD8B733E4C52B338D9DBB215 /* Pods-MobiliteDynamiqueUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		482233C5E38FBF55AD34A268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80B258581F96BFFA00105B07 /* SwiftCSV.framework */,
+				80820CE11F9419F50054CD38 /* SQLite.framework */,
+				807E773F1F8C37F900601C4C /* libsqlite3.0.tbd */,
+				807E77401F8C37F900601C4C /* libsqlite3.tbd */,
+				97260A9B84A455958058C875 /* Pods_MobiliteDynamique.framework */,
+				F1436762D121BC6ACB4C9C83 /* Pods_MobiliteDynamique_MobiliteDynamiqueTests.framework */,
+				100F6997A6421C7A59850D66 /* Pods_MobiliteDynamique_MobiliteDynamiqueUITests.framework */,
+				18700F0463A16EC6DFF5E712 /* Pods_MobiliteDynamiqueTests.framework */,
+				C5913620DEBE1752D63BDE7F /* Pods_MobiliteDynamiqueUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8031789D1F8B868600C6A337 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80DA33CA1F826C0C003D9CD3 /* Info.plist */,
+				80CC844F1F8C6A8500E2EE24 /* StoryboardSupport.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8031789E1F8B86AA00C6A337 /* Storyboards and Assets */ = {
+			isa = PBXGroup;
+			children = (
+				80DA33C21F826C0C003D9CD3 /* Main.storyboard */,
+				80DA33C51F826C0C003D9CD3 /* Assets.xcassets */,
+				80DA33C71F826C0C003D9CD3 /* LaunchScreen.storyboard */,
+			);
+			name = "Storyboards and Assets";
+			sourceTree = "<group>";
+		};
 		80DA33B21F826C0C003D9CD3 = {
 			isa = PBXGroup;
 			children = (
+				80B2585F1F96C55B00105B07 /* BusLines.swift */,
+				80B2585D1F96C4F600105B07 /* SampleData.swift */,
 				80DA33BD1F826C0C003D9CD3 /* MobiliteDynamique */,
 				80DA33D21F826C0D003D9CD3 /* MobiliteDynamiqueTests */,
 				80DA33DD1F826C0D003D9CD3 /* MobiliteDynamiqueUITests */,
 				80DA33BC1F826C0C003D9CD3 /* Products */,
+				338BD5A2B3D07DDC9630D56B /* Pods */,
+				482233C5E38FBF55AD34A268 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +208,17 @@
 		80DA33BD1F826C0C003D9CD3 /* MobiliteDynamique */ = {
 			isa = PBXGroup;
 			children = (
-				80DA33BE1F826C0C003D9CD3 /* AppDelegate.swift */,
-				80DA33C01F826C0C003D9CD3 /* ViewController.swift */,
-				80DA33C21F826C0C003D9CD3 /* Main.storyboard */,
-				80DA33C51F826C0C003D9CD3 /* Assets.xcassets */,
-				80DA33C71F826C0C003D9CD3 /* LaunchScreen.storyboard */,
-				80DA33CA1F826C0C003D9CD3 /* Info.plist */,
+				8031789E1F8B86AA00C6A337 /* Storyboards and Assets */,
+				8031789D1F8B868600C6A337 /* Supporting Files */,
+				80E692941F827ACA0005D6D3 /* BusData */,
+				80E6928D1F8277500005D6D3 /* CoreData */,
+				80DA33C01F826C0C003D9CD3 /* MainViewController.swift */,
+				80820CE41F9459D10054CD38 /* VCMapView.swift */,
+				80820CE21F94585B0054CD38 /* Artwork.swift */,
+				8031789F1F8B8F2400C6A337 /* AppDelegate.swift */,
+				80CC844D1F8C69D300E2EE24 /* BusMapViewController.swift */,
+				8031789A1F8B862900C6A337 /* LocationManager.swift */,
+				80B2585B1F96C43200105B07 /* BusLinesViewController.swift */,
 			);
 			path = MobiliteDynamique;
 			sourceTree = "<group>";
@@ -125,6 +241,24 @@
 			path = MobiliteDynamiqueUITests;
 			sourceTree = "<group>";
 		};
+		80E6928D1F8277500005D6D3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				80E6928E1F8277750005D6D3 /* UserLocations.xcdatamodeld */,
+			);
+			name = CoreData;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		80E692941F827ACA0005D6D3 /* BusData */ = {
+			isa = PBXGroup;
+			children = (
+				80E692951F827AFB0005D6D3 /* BusLines.xcdatamodeld */,
+			);
+			name = BusData;
+			path = ..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80DA33E31F826C0D003D9CD3 /* Build configuration list for PBXNativeTarget "MobiliteDynamique" */;
 			buildPhases = (
+				67E83C7DA0C4D7E57CDE4AC4 /* [CP] Check Pods Manifest.lock */,
 				80DA33B71F826C0C003D9CD3 /* Sources */,
 				80DA33B81F826C0C003D9CD3 /* Frameworks */,
 				80DA33B91F826C0C003D9CD3 /* Resources */,
+				1458933401DD030DAF4D9E2A /* [CP] Embed Pods Frameworks */,
+				C49B3AC702C0FDD7D3A90EBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80DA33E61F826C0D003D9CD3 /* Build configuration list for PBXNativeTarget "MobiliteDynamiqueTests" */;
 			buildPhases = (
+				4D29E2D4D9D26286CD7845CD /* [CP] Check Pods Manifest.lock */,
 				80DA33CB1F826C0D003D9CD3 /* Sources */,
 				80DA33CC1F826C0D003D9CD3 /* Frameworks */,
 				80DA33CD1F826C0D003D9CD3 /* Resources */,
+				985EA8FDBD4379B22895DE4D /* [CP] Embed Pods Frameworks */,
+				46A4B316FB89E236115AF702 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +307,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80DA33E91F826C0D003D9CD3 /* Build configuration list for PBXNativeTarget "MobiliteDynamiqueUITests" */;
 			buildPhases = (
+				777BF2674D4C1AB23137948A /* [CP] Check Pods Manifest.lock */,
 				80DA33D61F826C0D003D9CD3 /* Sources */,
 				80DA33D71F826C0D003D9CD3 /* Frameworks */,
 				80DA33D81F826C0D003D9CD3 /* Resources */,
+				364C5490F20BA9C8FEE54385 /* [CP] Embed Pods Frameworks */,
+				021B3DE68970F76FF3783C3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +338,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 723V6AVL93;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					80DA33CE1F826C0D003D9CD3 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -257,13 +408,183 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		021B3DE68970F76FF3783C3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamiqueUITests/Pods-MobiliteDynamiqueUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1458933401DD030DAF4D9E2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamique/Pods-MobiliteDynamique-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamique/Pods-MobiliteDynamique-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		364C5490F20BA9C8FEE54385 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamiqueUITests/Pods-MobiliteDynamiqueUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamiqueUITests/Pods-MobiliteDynamiqueUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46A4B316FB89E236115AF702 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamiqueTests/Pods-MobiliteDynamiqueTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D29E2D4D9D26286CD7845CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiliteDynamiqueTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67E83C7DA0C4D7E57CDE4AC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiliteDynamique-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		777BF2674D4C1AB23137948A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiliteDynamiqueUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		985EA8FDBD4379B22895DE4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamiqueTests/Pods-MobiliteDynamiqueTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamiqueTests/Pods-MobiliteDynamiqueTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C49B3AC702C0FDD7D3A90EBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamique/Pods-MobiliteDynamique-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamique/Pods-MobiliteDynamique-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80DA33B71F826C0C003D9CD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80DA33C11F826C0C003D9CD3 /* ViewController.swift in Sources */,
-				80DA33BF1F826C0C003D9CD3 /* AppDelegate.swift in Sources */,
+				80820CE51F9459D10054CD38 /* VCMapView.swift in Sources */,
+				80DA33C11F826C0C003D9CD3 /* MainViewController.swift in Sources */,
+				8031789B1F8B862900C6A337 /* LocationManager.swift in Sources */,
+				80B2585C1F96C43200105B07 /* BusLinesViewController.swift in Sources */,
+				80820CE31F94585B0054CD38 /* Artwork.swift in Sources */,
+				80CC844E1F8C69D300E2EE24 /* BusMapViewController.swift in Sources */,
+				80B258601F96C55B00105B07 /* BusLines.swift in Sources */,
+				80E692971F827AFB0005D6D3 /* BusLines.xcdatamodeld in Sources */,
+				803178A01F8B8F2400C6A337 /* AppDelegate.swift in Sources */,
+				80B2585E1F96C4F600105B07 /* SampleData.swift in Sources */,
+				80E692901F8277750005D6D3 /* UserLocations.xcdatamodeld in Sources */,
+				80CC84501F8C6A8500E2EE24 /* StoryboardSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +734,9 @@
 		};
 		80DA33E41F826C0D003D9CD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80D4FFA4116F67BC7685DB0 /* Pods-MobiliteDynamique.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 723V6AVL93;
 				INFOPLIST_FILE = MobiliteDynamique/Info.plist;
@@ -426,7 +749,9 @@
 		};
 		80DA33E51F826C0D003D9CD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98EFE1B85369B0EAA79E9F93 /* Pods-MobiliteDynamique.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 723V6AVL93;
 				INFOPLIST_FILE = MobiliteDynamique/Info.plist;
@@ -439,6 +764,7 @@
 		};
 		80DA33E71F826C0D003D9CD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBF64A7715D32899BC94577 /* Pods-MobiliteDynamiqueTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +780,7 @@
 		};
 		80DA33E81F826C0D003D9CD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF4DFD593C08257E7019A06 /* Pods-MobiliteDynamiqueTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +796,7 @@
 		};
 		80DA33EA1F826C0D003D9CD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D74A827C787EF855C4FDCE2 /* Pods-MobiliteDynamiqueUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 723V6AVL93;
@@ -483,6 +811,7 @@
 		};
 		80DA33EB1F826C0D003D9CD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8B733E4C52B338D9DBB215 /* Pods-MobiliteDynamiqueUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 723V6AVL93;
@@ -514,6 +843,7 @@
 				80DA33E51F826C0D003D9CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80DA33E61F826C0D003D9CD3 /* Build configuration list for PBXNativeTarget "MobiliteDynamiqueTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +852,7 @@
 				80DA33E81F826C0D003D9CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80DA33E91F826C0D003D9CD3 /* Build configuration list for PBXNativeTarget "MobiliteDynamiqueUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,8 +861,32 @@
 				80DA33EB1F826C0D003D9CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80E6928E1F8277750005D6D3 /* UserLocations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80E6928F1F8277750005D6D3 /* UserLocations.xcdatamodel */,
+			);
+			currentVersion = 80E6928F1F8277750005D6D3 /* UserLocations.xcdatamodel */;
+			path = UserLocations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		80E692951F827AFB0005D6D3 /* BusLines.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80E692961F827AFB0005D6D3 /* BusLines.xcdatamodel */,
+			);
+			currentVersion = 80E692961F827AFB0005D6D3 /* BusLines.xcdatamodel */;
+			path = BusLines.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 80DA33B31F826C0C003D9CD3 /* Project object */;
 }

@@ -15,8 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let locationManager = LocationManager.shared
+        locationManager.requestAlwaysAuthorization()
+        //GMSServices.provideAPIKey("AIzaSyCURqOn04WeW8iL3yp5VNwmNMJGq3wQpVA")
+        //GMSPlacesClient.provideAPIKey("AIzaSyBLXR7_mG9BfOhdQcjj_do5x8JOl8GbJPAcontent_copy")
         return true
+        // Override point for customization after application launch.
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

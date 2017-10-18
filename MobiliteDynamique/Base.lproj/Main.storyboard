@@ -1,26 +1,210 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="UAD-jo-D1h">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="Pfm-Vk-rXc">
+            <objects>
+                <tabBarController id="UAD-jo-D1h" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NFS-wx-S4D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eTM-sB-txN" kind="relationship" relationship="viewControllers" id="pmp-iQ-U6L"/>
+                        <segue destination="mZK-zF-wKW" kind="relationship" relationship="viewControllers" id="i4c-qb-kig"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FGY-BS-eV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1579" y="-395"/>
+        </scene>
+        <!--Bus Lines-->
+        <scene sceneID="3pR-sL-CrY">
+            <objects>
+                <tableViewController id="8P2-UV-nmO" customClass="BusLinesViewController" customModule="MobiliteDynamique" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="yoB-xw-Jk4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BusLineCell" textLabel="DNY-o0-s1y" detailTextLabel="DYg-H7-yOW" style="IBUITableViewCellStyleSubtitle" id="Gzk-iU-wfa">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Gzk-iU-wfa" id="3pp-Rh-7wP">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Numero de ligne" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DNY-o0-s1y">
+                                            <rect key="frame" x="20" y="5" width="126" height="20.333333333333332"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Départ -&gt; arrivée" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DYg-H7-yOW">
+                                            <rect key="frame" x="20" y="25.333333333333332" width="98" height="14.333333333333334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="wCL-YI-K33" kind="show" id="wJe-9R-HnC"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="8P2-UV-nmO" id="Sck-L2-w9w"/>
+                            <outlet property="delegate" destination="8P2-UV-nmO" id="xME-0d-xv6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Bus Lines" id="87g-yF-xFr"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Inf-No-IWv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="-56"/>
+        </scene>
+        <!--Bus Map View Controller-->
+        <scene sceneID="jYv-aJ-OZE">
+            <objects>
+                <viewController id="wCL-YI-K33" customClass="BusMapViewController" customModule="MobiliteDynamique" customModuleProvider="target" sceneMemberID="viewController">
+                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="4fw-mf-FE5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </mapView>
+                    <connections>
+                        <outlet property="map" destination="4fw-mf-FE5" id="QBC-bn-aLC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GsR-jR-RjT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967" y="-56"/>
+        </scene>
+        <!--Bus-->
+        <scene sceneID="IW9-FC-2Gp">
+            <objects>
+                <navigationController id="mZK-zF-wKW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Bus" id="8mn-L2-sz8"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="H7c-Kk-YBg">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="8P2-UV-nmO" kind="relationship" relationship="rootViewController" id="6e9-MS-klZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hwy-22-xz9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-662" y="-56"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="yqr-iO-VtU">
+            <objects>
+                <navigationController id="eTM-sB-txN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="5hA-a3-HbE"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pGj-xz-Udn">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="H0T-uE-7Ua"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R3E-Ow-P7q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-661" y="-800"/>
+        </scene>
+        <!--Home View Controller Scene-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Home View Controller Scene" id="BYZ-38-t0r" customClass="ViewController" customModule="MobiliteDynamique" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="buO-Hc-WzK">
+                                <rect key="frame" x="0.0" y="485" width="414" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="403" id="lOJ-1k-vpT"/>
+                                </constraints>
+                            </mapView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CyS-GV-nKQ">
+                                <rect key="frame" x="107" y="147" width="169" height="71"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r0C-ig-v7k">
+                                        <rect key="frame" x="0.0" y="0.0" width="169" height="71"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Osh-Xb-dvV">
+                                                <rect key="frame" x="0.0" y="0.0" width="169" height="71"/>
+                                                <subviews>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Collecter les données :" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lCV-Lv-iI6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="169" height="41"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Oui" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rx7-l1-bg3">
+                                                        <rect key="frame" x="0.0" y="41" width="169" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_directions_bus_black_24dp" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gPe-9c-fzN">
+                                <rect key="frame" x="227" y="111" width="56" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ErO-Ac-TpC">
+                                <rect key="frame" x="155" y="305" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="changeLabelData" destination="BYZ-38-t0r" eventType="valueChanged" id="Yj5-GC-jw5"/>
+                                </connections>
+                            </switch>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="buO-Hc-WzK" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="QYD-4h-jBb"/>
+                            <constraint firstItem="buO-Hc-WzK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="X4k-vW-CwX"/>
+                            <constraint firstItem="CyS-GV-nKQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="126" id="gOa-Nc-yO3"/>
+                            <constraint firstItem="buO-Hc-WzK" firstAttribute="centerX" secondItem="CyS-GV-nKQ" secondAttribute="centerX" id="gQH-wL-bYc"/>
+                            <constraint firstItem="CyS-GV-nKQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pkb-9X-J2s"/>
+                            <constraint firstItem="buO-Hc-WzK" firstAttribute="top" secondItem="CyS-GV-nKQ" secondAttribute="bottom" constant="23" id="zvW-Eh-10k"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Mobilite Dynamique" id="PGX-mI-JZZ" userLabel="Navigation Item"/>
+                    <connections>
+                        <outlet property="dataLabel" destination="rx7-l1-bg3" id="4J0-bS-OZQ"/>
+                        <outlet property="dataSwitch" destination="ErO-Ac-TpC" id="HdV-hS-y3e"/>
+                        <outlet property="mapView" destination="buO-Hc-WzK" id="zgQ-Xa-XDf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="118.84057971014494" y="-801.35869565217399"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_directions_bus_black_24dp" width="48" height="48"/>
+    </resources>
 </document>
