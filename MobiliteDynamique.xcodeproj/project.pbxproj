@@ -30,6 +30,12 @@
 		80DA33DF1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DA33DE1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.swift */; };
 		80E692901F8277750005D6D3 /* UserLocations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80E6928E1F8277750005D6D3 /* UserLocations.xcdatamodeld */; };
 		80E692971F827AFB0005D6D3 /* BusLines.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80E692951F827AFB0005D6D3 /* BusLines.xcdatamodeld */; };
+		80EDECC01F97983F00F43388 /* busstop.csv in Resources */ = {isa = PBXBuildFile; fileRef = 80EDECBF1F97983F00F43388 /* busstop.csv */; };
+		80EDECC21F97995500F43388 /* CSVparser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDECC11F97995500F43388 /* CSVparser.swift */; };
+		80EDECC41F97A56500F43388 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDECC31F97A56500F43388 /* HomeViewController.swift */; };
+		80EDECC71F97ECB500F43388 /* smiley_good.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EDECC51F97ECB400F43388 /* smiley_good.png */; };
+		80EDECC81F97ECB500F43388 /* smiley_sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EDECC61F97ECB400F43388 /* smiley_sad.png */; };
+		80EDECCA1F97F69C00F43388 /* UiColorFromRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDECC91F97F69C00F43388 /* UiColorFromRGB.swift */; };
 		91CB63AAAEF7D3115BFDAECE /* Pods_MobiliteDynamiqueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18700F0463A16EC6DFF5E712 /* Pods_MobiliteDynamiqueTests.framework */; };
 		CEED6E2B5002F00177DE1C95 /* Pods_MobiliteDynamiqueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5913620DEBE1752D63BDE7F /* Pods_MobiliteDynamiqueUITests.framework */; };
 /* End PBXBuildFile section */
@@ -86,6 +92,12 @@
 		80DA33E01F826C0D003D9CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80E6928F1F8277750005D6D3 /* UserLocations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserLocations.xcdatamodel; sourceTree = "<group>"; };
 		80E692961F827AFB0005D6D3 /* BusLines.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusLines.xcdatamodel; sourceTree = "<group>"; };
+		80EDECBF1F97983F00F43388 /* busstop.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = busstop.csv; sourceTree = "<group>"; };
+		80EDECC11F97995500F43388 /* CSVparser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVparser.swift; sourceTree = "<group>"; };
+		80EDECC31F97A56500F43388 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		80EDECC51F97ECB400F43388 /* smiley_good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smiley_good.png; path = ../../smiley_good.png; sourceTree = "<group>"; };
+		80EDECC61F97ECB400F43388 /* smiley_sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smiley_sad.png; path = ../../smiley_sad.png; sourceTree = "<group>"; };
+		80EDECC91F97F69C00F43388 /* UiColorFromRGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiColorFromRGB.swift; sourceTree = "<group>"; };
 		97260A9B84A455958058C875 /* Pods_MobiliteDynamique.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiliteDynamique.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EFE1B85369B0EAA79E9F93 /* Pods-MobiliteDynamique.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamique.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamique/Pods-MobiliteDynamique.release.xcconfig"; sourceTree = "<group>"; };
 		9DBF64A7715D32899BC94577 /* Pods-MobiliteDynamiqueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamiqueTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamiqueTests/Pods-MobiliteDynamiqueTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +196,11 @@
 		80DA33B21F826C0C003D9CD3 = {
 			isa = PBXGroup;
 			children = (
+				80EDECC91F97F69C00F43388 /* UiColorFromRGB.swift */,
+				80EDECC51F97ECB400F43388 /* smiley_good.png */,
+				80EDECC61F97ECB400F43388 /* smiley_sad.png */,
+				80EDECC11F97995500F43388 /* CSVparser.swift */,
+				80EDECBF1F97983F00F43388 /* busstop.csv */,
 				80B2585F1F96C55B00105B07 /* BusLines.swift */,
 				80B2585D1F96C4F600105B07 /* SampleData.swift */,
 				80DA33BD1F826C0C003D9CD3 /* MobiliteDynamique */,
@@ -213,6 +230,7 @@
 				80E692941F827ACA0005D6D3 /* BusData */,
 				80E6928D1F8277500005D6D3 /* CoreData */,
 				80DA33C01F826C0C003D9CD3 /* MainViewController.swift */,
+				80EDECC31F97A56500F43388 /* HomeViewController.swift */,
 				80820CE41F9459D10054CD38 /* VCMapView.swift */,
 				80820CE21F94585B0054CD38 /* Artwork.swift */,
 				8031789F1F8B8F2400C6A337 /* AppDelegate.swift */,
@@ -386,6 +404,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80EDECC01F97983F00F43388 /* busstop.csv in Resources */,
+				80EDECC81F97ECB500F43388 /* smiley_sad.png in Resources */,
+				80EDECC71F97ECB500F43388 /* smiley_good.png in Resources */,
 				80DA33C91F826C0C003D9CD3 /* LaunchScreen.storyboard in Resources */,
 				80DA33C61F826C0C003D9CD3 /* Assets.xcassets in Resources */,
 				80DA33C41F826C0C003D9CD3 /* Main.storyboard in Resources */,
@@ -577,9 +598,12 @@
 				80DA33C11F826C0C003D9CD3 /* MainViewController.swift in Sources */,
 				8031789B1F8B862900C6A337 /* LocationManager.swift in Sources */,
 				80B2585C1F96C43200105B07 /* BusLinesViewController.swift in Sources */,
+				80EDECC21F97995500F43388 /* CSVparser.swift in Sources */,
+				80EDECC41F97A56500F43388 /* HomeViewController.swift in Sources */,
 				80820CE31F94585B0054CD38 /* Artwork.swift in Sources */,
 				80CC844E1F8C69D300E2EE24 /* BusMapViewController.swift in Sources */,
 				80B258601F96C55B00105B07 /* BusLines.swift in Sources */,
+				80EDECCA1F97F69C00F43388 /* UiColorFromRGB.swift in Sources */,
 				80E692971F827AFB0005D6D3 /* BusLines.xcdatamodeld in Sources */,
 				803178A01F8B8F2400C6A337 /* AppDelegate.swift in Sources */,
 				80B2585E1F96C4F600105B07 /* SampleData.swift in Sources */,

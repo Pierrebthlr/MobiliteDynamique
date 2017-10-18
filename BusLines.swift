@@ -11,7 +11,7 @@ import Foundation
 struct BusLine {
     
     // MARK: - Properties
-    var number: String
+    var number: Int
     var departure: String
     var arrival : String
 }

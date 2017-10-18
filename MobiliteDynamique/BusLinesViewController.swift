@@ -16,6 +16,8 @@ class BusLinesViewController: UITableViewController {
     
     // MARK: - Properties
     public var busLines = SampleData.generatePlayersData()
+    
+    
 }
 
 // MARK: - UITableViewDataSource
@@ -30,12 +32,28 @@ extension BusLinesViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "BusLineCell", for: indexPath)
         
         let busline = busLines[indexPath.row]
-        cell.textLabel?.text = busline.number
+        cell.textLabel?.text = String(busline.number)
         //
         cell.detailTextLabel?.text = busline.departure+busline.arrival
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        // Use this to determine the selected index path. You can also store the selected index path in a variable using -didSelectRowAtIndexPath
+        let cell = sender as! UITableViewCell
+        //The bus line that the map has to show
+        let busLine : Int? =  Int((cell.textLabel?.text)!)
+        
+        // Create reference and pass it
+        let busMapViewController = segue.destination as! BusMapViewController
+        busMapViewController.lineNumber = busLine
+    }
+    
+    
 }
+
+
 
 
 
