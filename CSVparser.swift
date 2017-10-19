@@ -44,13 +44,12 @@ class CSVparser {
         let rows = cleanRows(file: file).components(separatedBy: "\n")
         if rows.count > 0 {
             data = []
-/*
-            columnTitles = getStringFieldsForRow(rows.first!,delimiter:",")
+            columnTitles = getStringFieldsForRow(row: rows.first!,delimiter:",")
             for row in rows{
-                let fields = getStringFieldsForRow(row,delimiter: ",")
+                let fields = getStringFieldsForRow(row: row,delimiter: ",")
                 if fields.count != columnTitles.count {continue}
                 var dataRow = [String:String]()
-                for (index,field) in fields.enumerate(){
+                for (index,field) in fields.enumerated(){
                     let fieldName = columnTitles[index]
                     dataRow[fieldName] = field
                 }
@@ -59,7 +58,26 @@ class CSVparser {
         } else {
             print("No data in file")
         }
-*/
+        
+    }
+    
+    func printData(file:String){
+        convertCSV(file: file)
+        var tableString = ""
+        var rowString = ""
+        print("data: \(data)")
+        for row in data{
+            rowString = ""
+            for fieldName in columnTitles{
+                guard let field = row[fieldName] else{
+                    print("field not found: \(fieldName)")
+                    continue
+                }
+                rowString += String(format:"%@     ",field)
+            }
+            tableString += rowString + "\n"
+        }
+        print(tableString)
     }
     
         func getStringFieldsForRow(row:String, delimiter:String)-> [String]{
@@ -68,4 +86,4 @@ class CSVparser {
     
 }
 
-}
+

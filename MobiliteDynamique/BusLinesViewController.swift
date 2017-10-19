@@ -46,7 +46,7 @@ extension BusLinesViewController {
         // Use this to determine the selected index path. You can also store the selected index path in a variable using -didSelectRowAtIndexPath
         let cell = sender as! UITableViewCell
         //The bus line that the map has to show
-        let busLine : Int? =  Int((cell.textLabel?.text)!)
+        let busLine : String? =  cell.textLabel?.text
         
         // Create reference and pass it
         let busMapViewController = segue.destination as! BusMapViewController

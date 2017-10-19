@@ -13,25 +13,39 @@ import MapKit
 
 class BusMapViewController: UIViewController {
 
-    var lineNumber:Int?
+    var lineNumber:String?
     public let locationManager = LocationManager.shared    
     
     @IBOutlet var busMap: MKMapView!
     override func viewDidLoad() {
-        //let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
-        guard let initialLocation = locationManager.location
-            else {
+        
+        let initialLocation = locationManager.location
+/*    guard let initialLocation = locationManager.location
+           else {
                 let alert = UIAlertController(title: "Alert", message: "You have to start location", preferredStyle: UIAlertControllerStyle.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
                 return
                 
-        }
+       }
+ */
         
-            self.centerMapOnLocation(location: initialLocation)
+            self.centerMapOnLocation(location: CLLocation(latitude:49.4179, longitude: 2.8261))
             let pCSV = CSVparser()
             let fCSV = pCSV.readDataFromCSV(fileName: "busstop",fileType: "csv")
-            print(fCSV)
+            pCSV.convertCSV(file: fCSV!)
+            for row in pCSV.data
+            {
+                if row["line"] == lineNumber
+                {
+                    let artwork = Artwork(title: row["bus_stop"]!, locationName: row["bus_stop"]!, discipline: "Bus Stop",
+                                          coordinate: CLLocationCoordinate2D(latitude: Double(row["latitude"]!)!, longitude: Double(row["longitude"]!)!))
+                    busMap.addAnnotation(artwork)
+
+                }
+            }
+        pCSV.printData(file:fCSV!)
+        
 
             // show artwork on map
             let artwork = Artwork(title: "King David Kalakaua",
