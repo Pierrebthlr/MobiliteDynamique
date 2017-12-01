@@ -10,15 +10,25 @@
 		441D81E74C88FCF34CAE064F /* Pods_MobiliteDynamique.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97260A9B84A455958058C875 /* Pods_MobiliteDynamique.framework */; };
 		59E8BEF7F4E51B2AA83A51A9 /* Pods_MobiliteDynamique_MobiliteDynamiqueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100F6997A6421C7A59850D66 /* Pods_MobiliteDynamique_MobiliteDynamiqueUITests.framework */; };
 		6C0FD53A69E7915930E4ABF7 /* Pods_MobiliteDynamique_MobiliteDynamiqueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1436762D121BC6ACB4C9C83 /* Pods_MobiliteDynamique_MobiliteDynamiqueTests.framework */; };
+		801E88111FD0B8A30016C3BC /* peopleTalk.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E88101FD0B8A20016C3BC /* peopleTalk.png */; };
+		801E88171FD0BEDB0016C3BC /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E88161FD0BED90016C3BC /* share.png */; };
+		801E88191FD0D3010016C3BC /* ReportNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E88181FD0D3010016C3BC /* ReportNavigationController.swift */; };
+		801E881D1FD0E1CC0016C3BC /* icons8-taxi-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E881A1FD0E1C10016C3BC /* icons8-taxi-50.png */; };
+		801E881E1FD0E1CC0016C3BC /* icons8-train-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E881B1FD0E1C50016C3BC /* icons8-train-filled-50.png */; };
+		801E881F1FD0E1CC0016C3BC /* icons8-bus-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E881C1FD0E1C80016C3BC /* icons8-bus-50.png */; };
+		801E88211FD0E6850016C3BC /* ReportTrainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E88201FD0E6850016C3BC /* ReportTrainController.swift */; };
 		8031789B1F8B862900C6A337 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031789A1F8B862900C6A337 /* LocationManager.swift */; };
 		803178A01F8B8F2400C6A337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031789F1F8B8F2400C6A337 /* AppDelegate.swift */; };
+		803F1F051FCE10A800322F77 /* smiley_good.png in Resources */ = {isa = PBXBuildFile; fileRef = 803F1F031FCE10A700322F77 /* smiley_good.png */; };
+		803F1F061FCE10A800322F77 /* smiley_sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 803F1F041FCE10A800322F77 /* smiley_sad.png */; };
+		803F1F081FCE11D300322F77 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F1F071FCE11D200322F77 /* SampleData.swift */; };
 		807E77411F8C37F900601C4C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E773F1F8C37F900601C4C /* libsqlite3.0.tbd */; };
 		807E77421F8C37F900601C4C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E77401F8C37F900601C4C /* libsqlite3.tbd */; };
 		80820CE01F9419F50054CD38 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80820CE11F9419F50054CD38 /* SQLite.framework */; };
 		80820CE31F94585B0054CD38 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80820CE21F94585B0054CD38 /* Artwork.swift */; };
 		80820CE51F9459D10054CD38 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80820CE41F9459D10054CD38 /* VCMapView.swift */; };
+		80AA2F9C1FD08B7F0080F058 /* CreateReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA2F9B1FD08B7F0080F058 /* CreateReportViewController.swift */; };
 		80B2585C1F96C43200105B07 /* BusLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2585B1F96C43200105B07 /* BusLinesViewController.swift */; };
-		80B2585E1F96C4F600105B07 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2585D1F96C4F600105B07 /* SampleData.swift */; };
 		80B258601F96C55B00105B07 /* BusLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2585F1F96C55B00105B07 /* BusLines.swift */; };
 		80CC844E1F8C69D300E2EE24 /* BusMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CC844D1F8C69D300E2EE24 /* BusMapViewController.swift */; };
 		80CC84501F8C6A8500E2EE24 /* StoryboardSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CC844F1F8C6A8500E2EE24 /* StoryboardSupport.swift */; };
@@ -33,8 +43,6 @@
 		80EDECC01F97983F00F43388 /* busstop.csv in Resources */ = {isa = PBXBuildFile; fileRef = 80EDECBF1F97983F00F43388 /* busstop.csv */; };
 		80EDECC21F97995500F43388 /* CSVparser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDECC11F97995500F43388 /* CSVparser.swift */; };
 		80EDECC41F97A56500F43388 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDECC31F97A56500F43388 /* HomeViewController.swift */; };
-		80EDECC71F97ECB500F43388 /* smiley_good.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EDECC51F97ECB400F43388 /* smiley_good.png */; };
-		80EDECC81F97ECB500F43388 /* smiley_sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EDECC61F97ECB400F43388 /* smiley_sad.png */; };
 		80EDECCA1F97F69C00F43388 /* UiColorFromRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDECC91F97F69C00F43388 /* UiColorFromRGB.swift */; };
 		91CB63AAAEF7D3115BFDAECE /* Pods_MobiliteDynamiqueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18700F0463A16EC6DFF5E712 /* Pods_MobiliteDynamiqueTests.framework */; };
 		CEED6E2B5002F00177DE1C95 /* Pods_MobiliteDynamiqueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5913620DEBE1752D63BDE7F /* Pods_MobiliteDynamiqueUITests.framework */; };
@@ -65,16 +73,26 @@
 		597B8239BCDB42819E679B14 /* Pods-MobiliteDynamique-MobiliteDynamiqueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamique-MobiliteDynamiqueTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamique-MobiliteDynamiqueTests/Pods-MobiliteDynamique-MobiliteDynamiqueTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D74A827C787EF855C4FDCE2 /* Pods-MobiliteDynamiqueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamiqueUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamiqueUITests/Pods-MobiliteDynamiqueUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		78DA376CAB8DE54B09AF1728 /* Pods-MobiliteDynamique-MobiliteDynamiqueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamique-MobiliteDynamiqueUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamique-MobiliteDynamiqueUITests/Pods-MobiliteDynamique-MobiliteDynamiqueUITests.release.xcconfig"; sourceTree = "<group>"; };
+		801E88101FD0B8A20016C3BC /* peopleTalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peopleTalk.png; sourceTree = "<group>"; };
+		801E88161FD0BED90016C3BC /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		801E88181FD0D3010016C3BC /* ReportNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportNavigationController.swift; sourceTree = "<group>"; };
+		801E881A1FD0E1C10016C3BC /* icons8-taxi-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-taxi-50.png"; path = "../../../../../../Desktop/icones applis android/icons8-taxi-50.png"; sourceTree = "<group>"; };
+		801E881B1FD0E1C50016C3BC /* icons8-train-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-train-filled-50.png"; path = "../../../../../../Desktop/icones applis android/icons8-train-filled-50.png"; sourceTree = "<group>"; };
+		801E881C1FD0E1C80016C3BC /* icons8-bus-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-bus-50.png"; path = "../../../../../../Desktop/icones applis android/icons8-bus-50.png"; sourceTree = "<group>"; };
+		801E88201FD0E6850016C3BC /* ReportTrainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTrainController.swift; sourceTree = "<group>"; };
 		8031789A1F8B862900C6A337 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		8031789F1F8B8F2400C6A337 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		803F1F031FCE10A700322F77 /* smiley_good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley_good.png; sourceTree = "<group>"; };
+		803F1F041FCE10A800322F77 /* smiley_sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley_sad.png; sourceTree = "<group>"; };
+		803F1F071FCE11D200322F77 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		807E773F1F8C37F900601C4C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		807E77401F8C37F900601C4C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		80820CE11F9419F50054CD38 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80820CE21F94585B0054CD38 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		80820CE41F9459D10054CD38 /* VCMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		80AA2F9B1FD08B7F0080F058 /* CreateReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReportViewController.swift; sourceTree = "<group>"; };
 		80B258581F96BFFA00105B07 /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B2585B1F96C43200105B07 /* BusLinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusLinesViewController.swift; sourceTree = "<group>"; };
-		80B2585D1F96C4F600105B07 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		80B2585F1F96C55B00105B07 /* BusLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusLines.swift; sourceTree = "<group>"; };
 		80CC844D1F8C69D300E2EE24 /* BusMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusMapViewController.swift; sourceTree = "<group>"; };
 		80CC844F1F8C6A8500E2EE24 /* StoryboardSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardSupport.swift; sourceTree = "<group>"; };
@@ -95,8 +113,6 @@
 		80EDECBF1F97983F00F43388 /* busstop.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = busstop.csv; sourceTree = "<group>"; };
 		80EDECC11F97995500F43388 /* CSVparser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVparser.swift; sourceTree = "<group>"; };
 		80EDECC31F97A56500F43388 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		80EDECC51F97ECB400F43388 /* smiley_good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smiley_good.png; path = ../../smiley_good.png; sourceTree = "<group>"; };
-		80EDECC61F97ECB400F43388 /* smiley_sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smiley_sad.png; path = ../../smiley_sad.png; sourceTree = "<group>"; };
 		80EDECC91F97F69C00F43388 /* UiColorFromRGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiColorFromRGB.swift; sourceTree = "<group>"; };
 		97260A9B84A455958058C875 /* Pods_MobiliteDynamique.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiliteDynamique.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EFE1B85369B0EAA79E9F93 /* Pods-MobiliteDynamique.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamique.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamique/Pods-MobiliteDynamique.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +190,54 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		801E88121FD0BD0A0016C3BC /* icones */ = {
+			isa = PBXGroup;
+			children = (
+				803F1F031FCE10A700322F77 /* smiley_good.png */,
+				801E881C1FD0E1C80016C3BC /* icons8-bus-50.png */,
+				801E881A1FD0E1C10016C3BC /* icons8-taxi-50.png */,
+				801E881B1FD0E1C50016C3BC /* icons8-train-filled-50.png */,
+				801E88101FD0B8A20016C3BC /* peopleTalk.png */,
+				803F1F041FCE10A800322F77 /* smiley_sad.png */,
+				801E88161FD0BED90016C3BC /* share.png */,
+			);
+			path = icones;
+			sourceTree = "<group>";
+		};
+		801E88131FD0BD2F0016C3BC /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				80EDECC11F97995500F43388 /* CSVparser.swift */,
+				80EDECC91F97F69C00F43388 /* UiColorFromRGB.swift */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		801E88141FD0BD500016C3BC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				80B2585F1F96C55B00105B07 /* BusLines.swift */,
+				803F1F071FCE11D200322F77 /* SampleData.swift */,
+				80820CE21F94585B0054CD38 /* Artwork.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		801E88151FD0BD6B0016C3BC /* Views controller */ = {
+			isa = PBXGroup;
+			children = (
+				80CC844D1F8C69D300E2EE24 /* BusMapViewController.swift */,
+				80B2585B1F96C43200105B07 /* BusLinesViewController.swift */,
+				801E88181FD0D3010016C3BC /* ReportNavigationController.swift */,
+				80DA33C01F826C0C003D9CD3 /* MainViewController.swift */,
+				80EDECC31F97A56500F43388 /* HomeViewController.swift */,
+				80820CE41F9459D10054CD38 /* VCMapView.swift */,
+				80AA2F9B1FD08B7F0080F058 /* CreateReportViewController.swift */,
+				801E88201FD0E6850016C3BC /* ReportTrainController.swift */,
+			);
+			path = "Views controller";
+			sourceTree = "<group>";
+		};
 		8031789D1F8B868600C6A337 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,13 +260,8 @@
 		80DA33B21F826C0C003D9CD3 = {
 			isa = PBXGroup;
 			children = (
-				80EDECC91F97F69C00F43388 /* UiColorFromRGB.swift */,
-				80EDECC51F97ECB400F43388 /* smiley_good.png */,
-				80EDECC61F97ECB400F43388 /* smiley_sad.png */,
-				80EDECC11F97995500F43388 /* CSVparser.swift */,
+				801E88121FD0BD0A0016C3BC /* icones */,
 				80EDECBF1F97983F00F43388 /* busstop.csv */,
-				80B2585F1F96C55B00105B07 /* BusLines.swift */,
-				80B2585D1F96C4F600105B07 /* SampleData.swift */,
 				80DA33BD1F826C0C003D9CD3 /* MobiliteDynamique */,
 				80DA33D21F826C0D003D9CD3 /* MobiliteDynamiqueTests */,
 				80DA33DD1F826C0D003D9CD3 /* MobiliteDynamiqueUITests */,
@@ -225,18 +284,15 @@
 		80DA33BD1F826C0C003D9CD3 /* MobiliteDynamique */ = {
 			isa = PBXGroup;
 			children = (
+				8031789F1F8B8F2400C6A337 /* AppDelegate.swift */,
 				8031789E1F8B86AA00C6A337 /* Storyboards and Assets */,
 				8031789D1F8B868600C6A337 /* Supporting Files */,
 				80E692941F827ACA0005D6D3 /* BusData */,
 				80E6928D1F8277500005D6D3 /* CoreData */,
-				80DA33C01F826C0C003D9CD3 /* MainViewController.swift */,
-				80EDECC31F97A56500F43388 /* HomeViewController.swift */,
-				80820CE41F9459D10054CD38 /* VCMapView.swift */,
-				80820CE21F94585B0054CD38 /* Artwork.swift */,
-				8031789F1F8B8F2400C6A337 /* AppDelegate.swift */,
-				80CC844D1F8C69D300E2EE24 /* BusMapViewController.swift */,
+				801E88131FD0BD2F0016C3BC /* tools */,
+				801E88141FD0BD500016C3BC /* model */,
+				801E88151FD0BD6B0016C3BC /* Views controller */,
 				8031789A1F8B862900C6A337 /* LocationManager.swift */,
-				80B2585B1F96C43200105B07 /* BusLinesViewController.swift */,
 			);
 			path = MobiliteDynamique;
 			sourceTree = "<group>";
@@ -405,11 +461,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				80EDECC01F97983F00F43388 /* busstop.csv in Resources */,
-				80EDECC81F97ECB500F43388 /* smiley_sad.png in Resources */,
-				80EDECC71F97ECB500F43388 /* smiley_good.png in Resources */,
+				803F1F051FCE10A800322F77 /* smiley_good.png in Resources */,
+				801E881F1FD0E1CC0016C3BC /* icons8-bus-50.png in Resources */,
+				803F1F061FCE10A800322F77 /* smiley_sad.png in Resources */,
 				80DA33C91F826C0C003D9CD3 /* LaunchScreen.storyboard in Resources */,
 				80DA33C61F826C0C003D9CD3 /* Assets.xcassets in Resources */,
+				801E88111FD0B8A30016C3BC /* peopleTalk.png in Resources */,
+				801E881D1FD0E1CC0016C3BC /* icons8-taxi-50.png in Resources */,
+				801E881E1FD0E1CC0016C3BC /* icons8-train-filled-50.png in Resources */,
 				80DA33C41F826C0C003D9CD3 /* Main.storyboard in Resources */,
+				801E88171FD0BEDB0016C3BC /* share.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,16 +659,19 @@
 				80DA33C11F826C0C003D9CD3 /* MainViewController.swift in Sources */,
 				8031789B1F8B862900C6A337 /* LocationManager.swift in Sources */,
 				80B2585C1F96C43200105B07 /* BusLinesViewController.swift in Sources */,
+				80AA2F9C1FD08B7F0080F058 /* CreateReportViewController.swift in Sources */,
 				80EDECC21F97995500F43388 /* CSVparser.swift in Sources */,
 				80EDECC41F97A56500F43388 /* HomeViewController.swift in Sources */,
 				80820CE31F94585B0054CD38 /* Artwork.swift in Sources */,
+				801E88211FD0E6850016C3BC /* ReportTrainController.swift in Sources */,
 				80CC844E1F8C69D300E2EE24 /* BusMapViewController.swift in Sources */,
 				80B258601F96C55B00105B07 /* BusLines.swift in Sources */,
 				80EDECCA1F97F69C00F43388 /* UiColorFromRGB.swift in Sources */,
+				801E88191FD0D3010016C3BC /* ReportNavigationController.swift in Sources */,
 				80E692971F827AFB0005D6D3 /* BusLines.xcdatamodeld in Sources */,
 				803178A01F8B8F2400C6A337 /* AppDelegate.swift in Sources */,
-				80B2585E1F96C4F600105B07 /* SampleData.swift in Sources */,
 				80E692901F8277750005D6D3 /* UserLocations.xcdatamodeld in Sources */,
+				803F1F081FCE11D300322F77 /* SampleData.swift in Sources */,
 				80CC84501F8C6A8500E2EE24 /* StoryboardSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
