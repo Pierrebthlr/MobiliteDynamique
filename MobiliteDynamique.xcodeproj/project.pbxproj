@@ -16,7 +16,15 @@
 		801E881D1FD0E1CC0016C3BC /* icons8-taxi-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E881A1FD0E1C10016C3BC /* icons8-taxi-50.png */; };
 		801E881E1FD0E1CC0016C3BC /* icons8-train-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E881B1FD0E1C50016C3BC /* icons8-train-filled-50.png */; };
 		801E881F1FD0E1CC0016C3BC /* icons8-bus-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E881C1FD0E1C80016C3BC /* icons8-bus-50.png */; };
-		801E88211FD0E6850016C3BC /* ReportTrainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E88201FD0E6850016C3BC /* ReportTrainController.swift */; };
+		801E88211FD0E6850016C3BC /* TrainSurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E88201FD0E6850016C3BC /* TrainSurveyTask.swift */; };
+		801E88371FD0F7A40016C3BC /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801E88381FD0F7A40016C3BC /* ResearchKit.framework */; };
+		801E883A1FD0FC0B0016C3BC /* TrainReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E88391FD0FC0B0016C3BC /* TrainReportViewController.swift */; };
+		801E883C1FD105800016C3BC /* BusSurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E883B1FD105800016C3BC /* BusSurveyTask.swift */; };
+		801E883E1FD1059F0016C3BC /* BusReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E883D1FD1059F0016C3BC /* BusReportViewController.swift */; };
+		801E88401FD107180016C3BC /* TaxiSurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E883F1FD107180016C3BC /* TaxiSurveyTask.swift */; };
+		801E88421FD109240016C3BC /* TaxiReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E88411FD109240016C3BC /* TaxiReportViewController.swift */; };
+		801E88441FD10E7F0016C3BC /* ic_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E88431FD10E7B0016C3BC /* ic_add.png */; };
+		801E88461FD10EAE0016C3BC /* mobilitadinamica_splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E88451FD10EAA0016C3BC /* mobilitadinamica_splashscreen.png */; };
 		8031789B1F8B862900C6A337 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031789A1F8B862900C6A337 /* LocationManager.swift */; };
 		803178A01F8B8F2400C6A337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031789F1F8B8F2400C6A337 /* AppDelegate.swift */; };
 		803F1F051FCE10A800322F77 /* smiley_good.png in Resources */ = {isa = PBXBuildFile; fileRef = 803F1F031FCE10A700322F77 /* smiley_good.png */; };
@@ -79,7 +87,15 @@
 		801E881A1FD0E1C10016C3BC /* icons8-taxi-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-taxi-50.png"; path = "../../../../../../Desktop/icones applis android/icons8-taxi-50.png"; sourceTree = "<group>"; };
 		801E881B1FD0E1C50016C3BC /* icons8-train-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-train-filled-50.png"; path = "../../../../../../Desktop/icones applis android/icons8-train-filled-50.png"; sourceTree = "<group>"; };
 		801E881C1FD0E1C80016C3BC /* icons8-bus-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-bus-50.png"; path = "../../../../../../Desktop/icones applis android/icons8-bus-50.png"; sourceTree = "<group>"; };
-		801E88201FD0E6850016C3BC /* ReportTrainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTrainController.swift; sourceTree = "<group>"; };
+		801E88201FD0E6850016C3BC /* TrainSurveyTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainSurveyTask.swift; sourceTree = "<group>"; };
+		801E88381FD0F7A40016C3BC /* ResearchKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ResearchKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		801E88391FD0FC0B0016C3BC /* TrainReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainReportViewController.swift; sourceTree = "<group>"; };
+		801E883B1FD105800016C3BC /* BusSurveyTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusSurveyTask.swift; sourceTree = "<group>"; };
+		801E883D1FD1059F0016C3BC /* BusReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusReportViewController.swift; sourceTree = "<group>"; };
+		801E883F1FD107180016C3BC /* TaxiSurveyTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiSurveyTask.swift; sourceTree = "<group>"; };
+		801E88411FD109240016C3BC /* TaxiReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiReportViewController.swift; sourceTree = "<group>"; };
+		801E88431FD10E7B0016C3BC /* ic_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_add.png; path = "../../../../../../Desktop/icones applis android/ic_add.png"; sourceTree = "<group>"; };
+		801E88451FD10EAA0016C3BC /* mobilitadinamica_splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mobilitadinamica_splashscreen.png; path = "../../../../../../Desktop/icones applis android/mobilitadinamica_splashscreen.png"; sourceTree = "<group>"; };
 		8031789A1F8B862900C6A337 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		8031789F1F8B8F2400C6A337 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		803F1F031FCE10A700322F77 /* smiley_good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley_good.png; sourceTree = "<group>"; };
@@ -129,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801E88371FD0F7A40016C3BC /* ResearchKit.framework in Frameworks */,
 				80820CE01F9419F50054CD38 /* SQLite.framework in Frameworks */,
 				807E77411F8C37F900601C4C /* libsqlite3.0.tbd in Frameworks */,
 				807E77421F8C37F900601C4C /* libsqlite3.tbd in Frameworks */,
@@ -177,6 +194,7 @@
 		482233C5E38FBF55AD34A268 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				801E88381FD0F7A40016C3BC /* ResearchKit.framework */,
 				80B258581F96BFFA00105B07 /* SwiftCSV.framework */,
 				80820CE11F9419F50054CD38 /* SQLite.framework */,
 				807E773F1F8C37F900601C4C /* libsqlite3.0.tbd */,
@@ -190,9 +208,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		801E88121FD0BD0A0016C3BC /* icones */ = {
+		801E88121FD0BD0A0016C3BC /* icones and images */ = {
 			isa = PBXGroup;
 			children = (
+				801E88451FD10EAA0016C3BC /* mobilitadinamica_splashscreen.png */,
+				801E88431FD10E7B0016C3BC /* ic_add.png */,
 				803F1F031FCE10A700322F77 /* smiley_good.png */,
 				801E881C1FD0E1C80016C3BC /* icons8-bus-50.png */,
 				801E881A1FD0E1C10016C3BC /* icons8-taxi-50.png */,
@@ -201,7 +221,7 @@
 				803F1F041FCE10A800322F77 /* smiley_sad.png */,
 				801E88161FD0BED90016C3BC /* share.png */,
 			);
-			path = icones;
+			path = "icones and images";
 			sourceTree = "<group>";
 		};
 		801E88131FD0BD2F0016C3BC /* tools */ = {
@@ -233,7 +253,12 @@
 				80EDECC31F97A56500F43388 /* HomeViewController.swift */,
 				80820CE41F9459D10054CD38 /* VCMapView.swift */,
 				80AA2F9B1FD08B7F0080F058 /* CreateReportViewController.swift */,
-				801E88201FD0E6850016C3BC /* ReportTrainController.swift */,
+				801E88201FD0E6850016C3BC /* TrainSurveyTask.swift */,
+				801E88391FD0FC0B0016C3BC /* TrainReportViewController.swift */,
+				801E883B1FD105800016C3BC /* BusSurveyTask.swift */,
+				801E883D1FD1059F0016C3BC /* BusReportViewController.swift */,
+				801E883F1FD107180016C3BC /* TaxiSurveyTask.swift */,
+				801E88411FD109240016C3BC /* TaxiReportViewController.swift */,
 			);
 			path = "Views controller";
 			sourceTree = "<group>";
@@ -260,7 +285,7 @@
 		80DA33B21F826C0C003D9CD3 = {
 			isa = PBXGroup;
 			children = (
-				801E88121FD0BD0A0016C3BC /* icones */,
+				801E88121FD0BD0A0016C3BC /* icones and images */,
 				80EDECBF1F97983F00F43388 /* busstop.csv */,
 				80DA33BD1F826C0C003D9CD3 /* MobiliteDynamique */,
 				80DA33D21F826C0D003D9CD3 /* MobiliteDynamiqueTests */,
@@ -461,6 +486,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80EDECC01F97983F00F43388 /* busstop.csv in Resources */,
+				801E88441FD10E7F0016C3BC /* ic_add.png in Resources */,
 				803F1F051FCE10A800322F77 /* smiley_good.png in Resources */,
 				801E881F1FD0E1CC0016C3BC /* icons8-bus-50.png in Resources */,
 				803F1F061FCE10A800322F77 /* smiley_sad.png in Resources */,
@@ -471,6 +497,7 @@
 				801E881E1FD0E1CC0016C3BC /* icons8-train-filled-50.png in Resources */,
 				80DA33C41F826C0C003D9CD3 /* Main.storyboard in Resources */,
 				801E88171FD0BEDB0016C3BC /* share.png in Resources */,
+				801E88461FD10EAE0016C3BC /* mobilitadinamica_splashscreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,10 +540,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamique/Pods-MobiliteDynamique-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResearchKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -663,16 +692,21 @@
 				80EDECC21F97995500F43388 /* CSVparser.swift in Sources */,
 				80EDECC41F97A56500F43388 /* HomeViewController.swift in Sources */,
 				80820CE31F94585B0054CD38 /* Artwork.swift in Sources */,
-				801E88211FD0E6850016C3BC /* ReportTrainController.swift in Sources */,
+				801E88211FD0E6850016C3BC /* TrainSurveyTask.swift in Sources */,
+				801E883C1FD105800016C3BC /* BusSurveyTask.swift in Sources */,
+				801E88401FD107180016C3BC /* TaxiSurveyTask.swift in Sources */,
 				80CC844E1F8C69D300E2EE24 /* BusMapViewController.swift in Sources */,
 				80B258601F96C55B00105B07 /* BusLines.swift in Sources */,
 				80EDECCA1F97F69C00F43388 /* UiColorFromRGB.swift in Sources */,
+				801E883E1FD1059F0016C3BC /* BusReportViewController.swift in Sources */,
 				801E88191FD0D3010016C3BC /* ReportNavigationController.swift in Sources */,
 				80E692971F827AFB0005D6D3 /* BusLines.xcdatamodeld in Sources */,
 				803178A01F8B8F2400C6A337 /* AppDelegate.swift in Sources */,
 				80E692901F8277750005D6D3 /* UserLocations.xcdatamodeld in Sources */,
 				803F1F081FCE11D300322F77 /* SampleData.swift in Sources */,
 				80CC84501F8C6A8500E2EE24 /* StoryboardSupport.swift in Sources */,
+				801E88421FD109240016C3BC /* TaxiReportViewController.swift in Sources */,
+				801E883A1FD0FC0B0016C3BC /* TrainReportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

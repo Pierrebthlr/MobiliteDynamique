@@ -124,7 +124,7 @@
         <scene sceneID="rcn-1M-zoU">
             <objects>
                 <navigationController title="Report" id="ubN-o0-1cB" userLabel="Report" customClass="ReportNavigationController" customModule="MobiliteDynamique" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="K7t-hB-cSl"/>
+                    <tabBarItem key="tabBarItem" title="Report" image="ReportIcon-Small" selectedImage="ReportIcon-Small" id="K7t-hB-cSl"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tuj-fT-Zvt">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -217,7 +217,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Zcd-ie-Lh0" kind="show" id="9wd-dm-9al"/>
+                                            <segue destination="Vzk-BL-UO0" kind="show" id="8Ye-Lc-13x"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Z5E-Yo-cCa">
@@ -240,6 +240,9 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="tvr-cX-CyP" kind="show" id="4FX-pP-aOW"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="12o-Dg-vY0">
                                         <rect key="frame" x="0.0" y="116" width="375" height="44"/>
@@ -261,6 +264,9 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="rf3-9Y-W2c" kind="show" id="He6-Gt-pzE"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -275,33 +281,59 @@
             </objects>
             <point key="canvasLocation" x="876" y="805.54722638680664"/>
         </scene>
-        <!--Report Train Controller-->
-        <scene sceneID="mPZ-6B-F4L">
+        <!--Train Report View Controller-->
+        <scene sceneID="VkB-At-VTT">
             <objects>
-                <tableViewController id="Zcd-ie-Lh0" customClass="ReportTrainController" customModule="MobiliteDynamique" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="aed-73-BCA">
+                <viewController id="Vzk-BL-UO0" customClass="TrainReportViewController" customModule="MobiliteDynamique" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wqe-d3-Fu3"/>
+                        <viewControllerLayoutGuide type="bottom" id="8FQ-VI-hAQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k3v-oj-pFT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Izr-cP-dm9">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Izr-cP-dm9" id="VNv-ep-0Ic">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="Zcd-ie-Lh0" id="gAK-2A-8Uc"/>
-                            <outlet property="delegate" destination="Zcd-ie-Lh0" id="oOM-NH-gQp"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IPB-Hb-4mj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6wf-ce-UuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1630" y="543"/>
+            <point key="canvasLocation" x="2177" y="448"/>
+        </scene>
+        <!--Bus Report View Controller-->
+        <scene sceneID="meb-SQ-o7y">
+            <objects>
+                <viewController id="tvr-cX-CyP" customClass="BusReportViewController" customModule="MobiliteDynamique" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z7g-a2-jVs"/>
+                        <viewControllerLayoutGuide type="bottom" id="uaC-y7-1xf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XaG-zQ-guQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="22z-YM-gNx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2177" y="1283"/>
+        </scene>
+        <!--Taxi Report View Controller-->
+        <scene sceneID="lB7-yV-ORR">
+            <objects>
+                <viewController id="rf3-9Y-W2c" customClass="TaxiReportViewController" customModule="MobiliteDynamique" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Sa-ib-7oc"/>
+                        <viewControllerLayoutGuide type="bottom" id="q4M-hu-bOF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gbQ-zK-JJS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3JZ-xk-dJy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2177" y="2168"/>
         </scene>
         <!--Home-->
         <scene sceneID="yqr-iO-VtU">
@@ -564,6 +596,7 @@
     <resources>
         <image name="BusIcon-Small" width="29" height="29"/>
         <image name="HomeIcon-Small" width="29" height="29"/>
+        <image name="ReportIcon-Small" width="29" height="29"/>
         <image name="ic_share" width="36" height="36"/>
         <image name="icons8-bus-50.png" width="50" height="50"/>
         <image name="icons8-taxi-50.png" width="50" height="50"/>
