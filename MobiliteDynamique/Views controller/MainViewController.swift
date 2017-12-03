@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var dataSwitch: UISwitch!
     
     @IBOutlet weak var dataLabel: UITextField!
+    @IBAction func plusButton(_ sender: Any) {
+    }
     
     public let locationManager = LocationManager.shared
     

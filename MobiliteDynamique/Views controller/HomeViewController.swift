@@ -15,9 +15,11 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var viewRight: UIView!
     @IBOutlet weak var dataSwitch: UISwitch!
     @IBOutlet weak var dataLabel: UILabel!
+    
+    @IBOutlet weak var newTripView: UIView!
+    
     let blueColor = UIColor.color(fromHexString: "#87E9C9")
     let redColor =  UIColor.color(fromHexString: "#E9866E")
-
     
     
     public let locationManager = LocationManager.shared
@@ -32,6 +34,8 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
         drawShadow(view: viewLeft)
         drawShadow(view: viewRight)
+        drawShadow(view: newTripView)
+        
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.color(fromHexString: "#FFFFFF")]
     }
 
@@ -113,3 +117,5 @@ extension HomeViewController: CLLocationManagerDelegate {
         }
     }
 }
+
+

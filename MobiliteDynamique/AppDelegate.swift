@@ -12,11 +12,15 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         let locationManager = LocationManager.shared
         locationManager.requestAlwaysAuthorization()
+        
+        application.statusBarStyle = .lightContent
         return true
         // Override point for customization after application launch.
     }

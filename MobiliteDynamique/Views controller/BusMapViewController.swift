@@ -56,6 +56,8 @@ class BusMapViewController: UIViewController {
             busMap.addAnnotation(artwork)
             busMap.delegate = self
         
+        addMapTrackingButton()
+        
         
     }
     
@@ -71,6 +73,20 @@ class BusMapViewController: UIViewController {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
                                                                   regionRadius * 2.0, regionRadius * 2.0)
         busMap.setRegion(coordinateRegion, animated: true)
+    }
+    
+    func addMapTrackingButton(){
+        let image = UIImage(named: "trackme") as UIImage?
+        let button   = UIButton(type: UIButtonType.system) as UIButton
+        button.frame = CGRect(origin: CGPoint(x: 0,y :0), size: CGSize(width: 100, height: 100))
+        button.setImage(image, for: [])
+        button.backgroundColor = .clear
+        button.addTarget(self, action: #selector(BusMapViewController.centerMapOnUserButtonClicked), for:.touchUpInside)
+        self.busMap.addSubview(button)
+    }
+    
+    func centerMapOnUserButtonClicked() {
+        self.busMap.setUserTrackingMode( MKUserTrackingMode.follow, animated: true)
     }
     
     /*
