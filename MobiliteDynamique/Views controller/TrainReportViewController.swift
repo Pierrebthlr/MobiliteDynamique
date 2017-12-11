@@ -17,7 +17,7 @@ class TrainReportViewController: UIViewController, ORKTaskViewControllerDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        taskViewController.delegate = self as? ORKTaskViewControllerDelegate
+        taskViewController.delegate = self
         present(taskViewController, animated: true, completion: nil)
 
         // Do any additional setup after loading the view.
@@ -32,10 +32,12 @@ class TrainReportViewController: UIViewController, ORKTaskViewControllerDelegate
         let durationFormatter = NumberFormatter()
         durationFormatter.maximumFractionDigits = 2
         
-        if let results = taskViewController.result.results {
+        if taskViewController.result.results != nil {
+            /*
             for result in results {
-                
+              TODO
             }
+            */
         }
 
     }

@@ -1,17 +1,20 @@
 PODS:
+  - Eureka (4.0.1)
   - ResearchKit (1.5.2)
   - SQLite.swift (0.11.4):
     - SQLite.swift/standard (= 0.11.4)
   - SQLite.swift/standard (0.11.4)
 
 DEPENDENCIES:
+  - Eureka
   - ResearchKit (~> 1.0)
   - SQLite.swift
 
 SPEC CHECKSUMS:
+  Eureka: c8bd5cc07143b6f66268c208d28a246c99b41955
   ResearchKit: a5770681dd61afddd3d1f24d232b9abf00cba454
   SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
 
-PODFILE CHECKSUM: 0c9d59bf49ec2eace640389b392f46414e1d4167
+PODFILE CHECKSUM: 18164fc425f38f16f660c93ba01d7562cc1f8d29
 
 COCOAPODS: 1.3.1

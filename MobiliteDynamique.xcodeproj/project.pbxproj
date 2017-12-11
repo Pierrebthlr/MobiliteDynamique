@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		441D81E74C88FCF34CAE064F /* Pods_MobiliteDynamique.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97260A9B84A455958058C875 /* Pods_MobiliteDynamique.framework */; };
-		59E8BEF7F4E51B2AA83A51A9 /* Pods_MobiliteDynamique_MobiliteDynamiqueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100F6997A6421C7A59850D66 /* Pods_MobiliteDynamique_MobiliteDynamiqueUITests.framework */; };
-		6C0FD53A69E7915930E4ABF7 /* Pods_MobiliteDynamique_MobiliteDynamiqueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1436762D121BC6ACB4C9C83 /* Pods_MobiliteDynamique_MobiliteDynamiqueTests.framework */; };
 		801E88111FD0B8A30016C3BC /* peopleTalk.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E88101FD0B8A20016C3BC /* peopleTalk.png */; };
 		801E88171FD0BEDB0016C3BC /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E88161FD0BED90016C3BC /* share.png */; };
 		801E88191FD0D3010016C3BC /* ReportNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E88181FD0D3010016C3BC /* ReportNavigationController.swift */; };
@@ -30,6 +28,7 @@
 		803F1F051FCE10A800322F77 /* smiley_good.png in Resources */ = {isa = PBXBuildFile; fileRef = 803F1F031FCE10A700322F77 /* smiley_good.png */; };
 		803F1F061FCE10A800322F77 /* smiley_sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 803F1F041FCE10A800322F77 /* smiley_sad.png */; };
 		803F1F081FCE11D300322F77 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F1F071FCE11D200322F77 /* SampleData.swift */; };
+		8047D99C1FDF348500C52184 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8047D99D1FDF348500C52184 /* Eureka.framework */; };
 		807E77411F8C37F900601C4C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E773F1F8C37F900601C4C /* libsqlite3.0.tbd */; };
 		807E77421F8C37F900601C4C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E77401F8C37F900601C4C /* libsqlite3.tbd */; };
 		80820CE01F9419F50054CD38 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80820CE11F9419F50054CD38 /* SQLite.framework */; };
@@ -44,34 +43,13 @@
 		80DA33C41F826C0C003D9CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DA33C21F826C0C003D9CD3 /* Main.storyboard */; };
 		80DA33C61F826C0C003D9CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DA33C51F826C0C003D9CD3 /* Assets.xcassets */; };
 		80DA33C91F826C0C003D9CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DA33C71F826C0C003D9CD3 /* LaunchScreen.storyboard */; };
-		80DA33D41F826C0D003D9CD3 /* MobiliteDynamiqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DA33D31F826C0D003D9CD3 /* MobiliteDynamiqueTests.swift */; };
-		80DA33DF1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DA33DE1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.swift */; };
 		80E692901F8277750005D6D3 /* UserLocations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80E6928E1F8277750005D6D3 /* UserLocations.xcdatamodeld */; };
 		80E692971F827AFB0005D6D3 /* BusLines.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80E692951F827AFB0005D6D3 /* BusLines.xcdatamodeld */; };
 		80EDECC01F97983F00F43388 /* busstop.csv in Resources */ = {isa = PBXBuildFile; fileRef = 80EDECBF1F97983F00F43388 /* busstop.csv */; };
 		80EDECC21F97995500F43388 /* CSVparser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDECC11F97995500F43388 /* CSVparser.swift */; };
 		80EDECC41F97A56500F43388 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDECC31F97A56500F43388 /* HomeViewController.swift */; };
 		80EDECCA1F97F69C00F43388 /* UiColorFromRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDECC91F97F69C00F43388 /* UiColorFromRGB.swift */; };
-		91CB63AAAEF7D3115BFDAECE /* Pods_MobiliteDynamiqueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18700F0463A16EC6DFF5E712 /* Pods_MobiliteDynamiqueTests.framework */; };
-		CEED6E2B5002F00177DE1C95 /* Pods_MobiliteDynamiqueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5913620DEBE1752D63BDE7F /* Pods_MobiliteDynamiqueUITests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		80DA33D01F826C0D003D9CD3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80DA33B31F826C0C003D9CD3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80DA33BA1F826C0C003D9CD3;
-			remoteInfo = MobiliteDynamique;
-		};
-		80DA33DB1F826C0D003D9CD3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80DA33B31F826C0C003D9CD3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80DA33BA1F826C0C003D9CD3;
-			remoteInfo = MobiliteDynamique;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0BF4DFD593C08257E7019A06 /* Pods-MobiliteDynamiqueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteDynamiqueTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiliteDynamiqueTests/Pods-MobiliteDynamiqueTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +79,8 @@
 		803F1F031FCE10A700322F77 /* smiley_good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley_good.png; sourceTree = "<group>"; };
 		803F1F041FCE10A800322F77 /* smiley_sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley_sad.png; sourceTree = "<group>"; };
 		803F1F071FCE11D200322F77 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		8047D99B1FDF2ACB00C52184 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8047D99D1FDF348500C52184 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		807E773F1F8C37F900601C4C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		807E77401F8C37F900601C4C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		80820CE11F9419F50054CD38 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,10 +98,8 @@
 		80DA33C51F826C0C003D9CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80DA33C81F826C0C003D9CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80DA33CA1F826C0C003D9CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80DA33CF1F826C0D003D9CD3 /* MobiliteDynamiqueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiliteDynamiqueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DA33D31F826C0D003D9CD3 /* MobiliteDynamiqueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiliteDynamiqueTests.swift; sourceTree = "<group>"; };
 		80DA33D51F826C0D003D9CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80DA33DA1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiliteDynamiqueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DA33DE1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiliteDynamiqueUITests.swift; sourceTree = "<group>"; };
 		80DA33E01F826C0D003D9CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80E6928F1F8277750005D6D3 /* UserLocations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserLocations.xcdatamodel; sourceTree = "<group>"; };
@@ -145,29 +123,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8047D99C1FDF348500C52184 /* Eureka.framework in Frameworks */,
 				801E88371FD0F7A40016C3BC /* ResearchKit.framework in Frameworks */,
 				80820CE01F9419F50054CD38 /* SQLite.framework in Frameworks */,
 				807E77411F8C37F900601C4C /* libsqlite3.0.tbd in Frameworks */,
 				807E77421F8C37F900601C4C /* libsqlite3.tbd in Frameworks */,
 				441D81E74C88FCF34CAE064F /* Pods_MobiliteDynamique.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80DA33CC1F826C0D003D9CD3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6C0FD53A69E7915930E4ABF7 /* Pods_MobiliteDynamique_MobiliteDynamiqueTests.framework in Frameworks */,
-				91CB63AAAEF7D3115BFDAECE /* Pods_MobiliteDynamiqueTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80DA33D71F826C0D003D9CD3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59E8BEF7F4E51B2AA83A51A9 /* Pods_MobiliteDynamique_MobiliteDynamiqueUITests.framework in Frameworks */,
-				CEED6E2B5002F00177DE1C95 /* Pods_MobiliteDynamiqueUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +155,8 @@
 		482233C5E38FBF55AD34A268 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8047D99D1FDF348500C52184 /* Eureka.framework */,
+				8047D99B1FDF2ACB00C52184 /* Eureka.framework */,
 				801E88381FD0F7A40016C3BC /* ResearchKit.framework */,
 				80B258581F96BFFA00105B07 /* SwiftCSV.framework */,
 				80820CE11F9419F50054CD38 /* SQLite.framework */,
@@ -300,8 +263,6 @@
 			isa = PBXGroup;
 			children = (
 				80DA33BB1F826C0C003D9CD3 /* MobiliteDynamique.app */,
-				80DA33CF1F826C0D003D9CD3 /* MobiliteDynamiqueTests.xctest */,
-				80DA33DA1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -381,48 +342,6 @@
 			productReference = 80DA33BB1F826C0C003D9CD3 /* MobiliteDynamique.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80DA33CE1F826C0D003D9CD3 /* MobiliteDynamiqueTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80DA33E61F826C0D003D9CD3 /* Build configuration list for PBXNativeTarget "MobiliteDynamiqueTests" */;
-			buildPhases = (
-				4D29E2D4D9D26286CD7845CD /* [CP] Check Pods Manifest.lock */,
-				80DA33CB1F826C0D003D9CD3 /* Sources */,
-				80DA33CC1F826C0D003D9CD3 /* Frameworks */,
-				80DA33CD1F826C0D003D9CD3 /* Resources */,
-				985EA8FDBD4379B22895DE4D /* [CP] Embed Pods Frameworks */,
-				46A4B316FB89E236115AF702 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80DA33D11F826C0D003D9CD3 /* PBXTargetDependency */,
-			);
-			name = MobiliteDynamiqueTests;
-			productName = MobiliteDynamiqueTests;
-			productReference = 80DA33CF1F826C0D003D9CD3 /* MobiliteDynamiqueTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		80DA33D91F826C0D003D9CD3 /* MobiliteDynamiqueUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80DA33E91F826C0D003D9CD3 /* Build configuration list for PBXNativeTarget "MobiliteDynamiqueUITests" */;
-			buildPhases = (
-				777BF2674D4C1AB23137948A /* [CP] Check Pods Manifest.lock */,
-				80DA33D61F826C0D003D9CD3 /* Sources */,
-				80DA33D71F826C0D003D9CD3 /* Frameworks */,
-				80DA33D81F826C0D003D9CD3 /* Resources */,
-				364C5490F20BA9C8FEE54385 /* [CP] Embed Pods Frameworks */,
-				021B3DE68970F76FF3783C3E /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80DA33DC1F826C0D003D9CD3 /* PBXTargetDependency */,
-			);
-			name = MobiliteDynamiqueUITests;
-			productName = MobiliteDynamiqueUITests;
-			productReference = 80DA33DA1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -430,12 +349,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Pierre Bathellier";
 				TargetAttributes = {
 					80DA33BA1F826C0C003D9CD3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 723V6AVL93;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -445,18 +365,6 @@
 								enabled = 0;
 							};
 						};
-					};
-					80DA33CE1F826C0D003D9CD3 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 723V6AVL93;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 80DA33BA1F826C0C003D9CD3;
-					};
-					80DA33D91F826C0D003D9CD3 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 723V6AVL93;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 80DA33BA1F826C0C003D9CD3;
 					};
 				};
 			};
@@ -474,8 +382,6 @@
 			projectRoot = "";
 			targets = (
 				80DA33BA1F826C0C003D9CD3 /* MobiliteDynamique */,
-				80DA33CE1F826C0D003D9CD3 /* MobiliteDynamiqueTests */,
-				80DA33D91F826C0D003D9CD3 /* MobiliteDynamiqueUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -501,38 +407,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80DA33CD1F826C0D003D9CD3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80DA33D81F826C0D003D9CD3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		021B3DE68970F76FF3783C3E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamiqueUITests/Pods-MobiliteDynamiqueUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1458933401DD030DAF4D9E2A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -540,68 +417,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamique/Pods-MobiliteDynamique-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
 				"${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResearchKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamique/Pods-MobiliteDynamique-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		364C5490F20BA9C8FEE54385 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamiqueUITests/Pods-MobiliteDynamiqueUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamiqueUITests/Pods-MobiliteDynamiqueUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		46A4B316FB89E236115AF702 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamiqueTests/Pods-MobiliteDynamiqueTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4D29E2D4D9D26286CD7845CD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MobiliteDynamiqueTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		67E83C7DA0C4D7E57CDE4AC4 /* [CP] Check Pods Manifest.lock */ = {
@@ -620,42 +448,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		777BF2674D4C1AB23137948A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MobiliteDynamiqueUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		985EA8FDBD4379B22895DE4D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamiqueTests/Pods-MobiliteDynamiqueTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiliteDynamiqueTests/Pods-MobiliteDynamiqueTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C49B3AC702C0FDD7D3A90EBC /* [CP] Copy Pods Resources */ = {
@@ -710,36 +502,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80DA33CB1F826C0D003D9CD3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80DA33D41F826C0D003D9CD3 /* MobiliteDynamiqueTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80DA33D61F826C0D003D9CD3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80DA33DF1F826C0D003D9CD3 /* MobiliteDynamiqueUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		80DA33D11F826C0D003D9CD3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80DA33BA1F826C0C003D9CD3 /* MobiliteDynamique */;
-			targetProxy = 80DA33D01F826C0D003D9CD3 /* PBXContainerItemProxy */;
-		};
-		80DA33DC1F826C0D003D9CD3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80DA33BA1F826C0C003D9CD3 /* MobiliteDynamique */;
-			targetProxy = 80DA33DB1F826C0D003D9CD3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		80DA33C21F826C0C003D9CD3 /* Main.storyboard */ = {
@@ -770,7 +533,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -778,7 +543,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -807,6 +576,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -820,7 +590,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -828,7 +600,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -849,6 +625,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -865,7 +642,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TX.MobiliteDynamique;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -880,69 +658,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TX.MobiliteDynamique;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		80DA33E71F826C0D003D9CD3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DBF64A7715D32899BC94577 /* Pods-MobiliteDynamiqueTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 723V6AVL93;
-				INFOPLIST_FILE = MobiliteDynamiqueTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TX.MobiliteDynamiqueTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiliteDynamique.app/MobiliteDynamique";
-			};
-			name = Debug;
-		};
-		80DA33E81F826C0D003D9CD3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BF4DFD593C08257E7019A06 /* Pods-MobiliteDynamiqueTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 723V6AVL93;
-				INFOPLIST_FILE = MobiliteDynamiqueTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TX.MobiliteDynamiqueTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiliteDynamique.app/MobiliteDynamique";
-			};
-			name = Release;
-		};
-		80DA33EA1F826C0D003D9CD3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D74A827C787EF855C4FDCE2 /* Pods-MobiliteDynamiqueUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 723V6AVL93;
-				INFOPLIST_FILE = MobiliteDynamiqueUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TX.MobiliteDynamiqueUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = MobiliteDynamique;
-			};
-			name = Debug;
-		};
-		80DA33EB1F826C0D003D9CD3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD8B733E4C52B338D9DBB215 /* Pods-MobiliteDynamiqueUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 723V6AVL93;
-				INFOPLIST_FILE = MobiliteDynamiqueUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TX.MobiliteDynamiqueUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = MobiliteDynamique;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -963,24 +680,6 @@
 			buildConfigurations = (
 				80DA33E41F826C0D003D9CD3 /* Debug */,
 				80DA33E51F826C0D003D9CD3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80DA33E61F826C0D003D9CD3 /* Build configuration list for PBXNativeTarget "MobiliteDynamiqueTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80DA33E71F826C0D003D9CD3 /* Debug */,
-				80DA33E81F826C0D003D9CD3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80DA33E91F826C0D003D9CD3 /* Build configuration list for PBXNativeTarget "MobiliteDynamiqueUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80DA33EA1F826C0D003D9CD3 /* Debug */,
-				80DA33EB1F826C0D003D9CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

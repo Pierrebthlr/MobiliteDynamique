@@ -17,7 +17,7 @@ class BusLinesViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.color(fromHexString: "#FFFFFF")]
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.color(fromHexString: "#FFFFFF")]
     }
     
     

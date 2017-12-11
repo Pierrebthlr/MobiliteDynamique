@@ -12,7 +12,7 @@ import MapKit
 extension ViewController: MKMapViewDelegate {
     
     // 1
-    func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
+    func mapView(_ mapView: MKMapView!, viewFor annotation: MKAnnotation!) -> MKAnnotationView! {
         if let annotation = annotation as? Artwork {
             let identifier = "pin"
             var view: MKPinAnnotationView

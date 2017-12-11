@@ -85,7 +85,7 @@ class BusMapViewController: UIViewController {
         self.busMap.addSubview(button)
     }
     
-    func centerMapOnUserButtonClicked() {
+    @objc func centerMapOnUserButtonClicked() {
         self.busMap.setUserTrackingMode( MKUserTrackingMode.follow, animated: true)
     }
     

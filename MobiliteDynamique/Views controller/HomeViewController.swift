@@ -36,7 +36,7 @@ class HomeViewController: UIViewController {
         drawShadow(view: viewRight)
         drawShadow(view: newTripView)
         
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.color(fromHexString: "#FFFFFF")]
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.color(fromHexString: "#FFFFFF")]
     }
 
     override func didReceiveMemoryWarning() {
