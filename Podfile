@@ -9,6 +9,7 @@ target 'MobiliteDynamique' do
   pod 'SQLite.swift'
   pod 'ResearchKit', '~> 1.0'   
   pod 'Eureka'
+  pod 'SideMenu'
  # Pods for MobiliteDynamique
 
 #  target 'MobiliteDynamiqueTests' do

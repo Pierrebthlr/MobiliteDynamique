@@ -29,12 +29,20 @@
 		803F1F061FCE10A800322F77 /* smiley_sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 803F1F041FCE10A800322F77 /* smiley_sad.png */; };
 		803F1F081FCE11D300322F77 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F1F071FCE11D200322F77 /* SampleData.swift */; };
 		8047D99C1FDF348500C52184 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8047D99D1FDF348500C52184 /* Eureka.framework */; };
+		8047D99E1FDF378200C52184 /* SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8047D99F1FDF378200C52184 /* SideMenu.framework */; };
+		8047D9A31FDF59CD00C52184 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047D9A21FDF59CD00C52184 /* UserDefaultsManager.swift */; };
+		8047D9A51FDF5C4D00C52184 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047D9A41FDF5C4D00C52184 /* NetworkManager.swift */; };
+		8047D9A71FDF657D00C52184 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047D9A61FDF657D00C52184 /* SideMenuViewController.swift */; };
+		8047D9A91FDF69D300C52184 /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047D9A81FDF69D200C52184 /* SideMenuTableViewController.swift */; };
+		8047D9AC1FDF6D3900C52184 /* avatar_f.png in Resources */ = {isa = PBXBuildFile; fileRef = 8047D9AA1FDF6D2F00C52184 /* avatar_f.png */; };
+		8047D9AD1FDF6D3900C52184 /* avatar_m.png in Resources */ = {isa = PBXBuildFile; fileRef = 8047D9AB1FDF6D3800C52184 /* avatar_m.png */; };
 		807E77411F8C37F900601C4C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E773F1F8C37F900601C4C /* libsqlite3.0.tbd */; };
 		807E77421F8C37F900601C4C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E77401F8C37F900601C4C /* libsqlite3.tbd */; };
 		80820CE01F9419F50054CD38 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80820CE11F9419F50054CD38 /* SQLite.framework */; };
 		80820CE31F94585B0054CD38 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80820CE21F94585B0054CD38 /* Artwork.swift */; };
 		80820CE51F9459D10054CD38 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80820CE41F9459D10054CD38 /* VCMapView.swift */; };
 		80AA2F9C1FD08B7F0080F058 /* CreateReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA2F9B1FD08B7F0080F058 /* CreateReportViewController.swift */; };
+		80B0B3D51FE0709600D13419 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B0B3D41FE0709600D13419 /* ProfileViewController.swift */; };
 		80B2585C1F96C43200105B07 /* BusLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2585B1F96C43200105B07 /* BusLinesViewController.swift */; };
 		80B258601F96C55B00105B07 /* BusLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2585F1F96C55B00105B07 /* BusLines.swift */; };
 		80CC844E1F8C69D300E2EE24 /* BusMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CC844D1F8C69D300E2EE24 /* BusMapViewController.swift */; };
@@ -81,12 +89,20 @@
 		803F1F071FCE11D200322F77 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		8047D99B1FDF2ACB00C52184 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8047D99D1FDF348500C52184 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8047D99F1FDF378200C52184 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8047D9A21FDF59CD00C52184 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		8047D9A41FDF5C4D00C52184 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8047D9A61FDF657D00C52184 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		8047D9A81FDF69D200C52184 /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		8047D9AA1FDF6D2F00C52184 /* avatar_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar_f.png; sourceTree = "<group>"; };
+		8047D9AB1FDF6D3800C52184 /* avatar_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar_m.png; sourceTree = "<group>"; };
 		807E773F1F8C37F900601C4C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		807E77401F8C37F900601C4C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		80820CE11F9419F50054CD38 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80820CE21F94585B0054CD38 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		80820CE41F9459D10054CD38 /* VCMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 		80AA2F9B1FD08B7F0080F058 /* CreateReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReportViewController.swift; sourceTree = "<group>"; };
+		80B0B3D41FE0709600D13419 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		80B258581F96BFFA00105B07 /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B2585B1F96C43200105B07 /* BusLinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusLinesViewController.swift; sourceTree = "<group>"; };
 		80B2585F1F96C55B00105B07 /* BusLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusLines.swift; sourceTree = "<group>"; };
@@ -123,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8047D99E1FDF378200C52184 /* SideMenu.framework in Frameworks */,
 				8047D99C1FDF348500C52184 /* Eureka.framework in Frameworks */,
 				801E88371FD0F7A40016C3BC /* ResearchKit.framework in Frameworks */,
 				80820CE01F9419F50054CD38 /* SQLite.framework in Frameworks */,
@@ -155,6 +172,7 @@
 		482233C5E38FBF55AD34A268 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8047D99F1FDF378200C52184 /* SideMenu.framework */,
 				8047D99D1FDF348500C52184 /* Eureka.framework */,
 				8047D99B1FDF2ACB00C52184 /* Eureka.framework */,
 				801E88381FD0F7A40016C3BC /* ResearchKit.framework */,
@@ -175,6 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				801E88451FD10EAA0016C3BC /* mobilitadinamica_splashscreen.png */,
+				8047D9AA1FDF6D2F00C52184 /* avatar_f.png */,
+				8047D9AB1FDF6D3800C52184 /* avatar_m.png */,
 				801E88431FD10E7B0016C3BC /* ic_add.png */,
 				803F1F031FCE10A700322F77 /* smiley_good.png */,
 				801E881C1FD0E1C80016C3BC /* icons8-bus-50.png */,
@@ -202,6 +222,9 @@
 				80B2585F1F96C55B00105B07 /* BusLines.swift */,
 				803F1F071FCE11D200322F77 /* SampleData.swift */,
 				80820CE21F94585B0054CD38 /* Artwork.swift */,
+				8047D9A21FDF59CD00C52184 /* UserDefaultsManager.swift */,
+				8047D9A41FDF5C4D00C52184 /* NetworkManager.swift */,
+				8031789A1F8B862900C6A337 /* LocationManager.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -222,6 +245,9 @@
 				801E883D1FD1059F0016C3BC /* BusReportViewController.swift */,
 				801E883F1FD107180016C3BC /* TaxiSurveyTask.swift */,
 				801E88411FD109240016C3BC /* TaxiReportViewController.swift */,
+				8047D9A61FDF657D00C52184 /* SideMenuViewController.swift */,
+				8047D9A81FDF69D200C52184 /* SideMenuTableViewController.swift */,
+				80B0B3D41FE0709600D13419 /* ProfileViewController.swift */,
 			);
 			path = "Views controller";
 			sourceTree = "<group>";
@@ -278,7 +304,6 @@
 				801E88131FD0BD2F0016C3BC /* tools */,
 				801E88141FD0BD500016C3BC /* model */,
 				801E88151FD0BD6B0016C3BC /* Views controller */,
-				8031789A1F8B862900C6A337 /* LocationManager.swift */,
 			);
 			path = MobiliteDynamique;
 			sourceTree = "<group>";
@@ -396,8 +421,10 @@
 				803F1F051FCE10A800322F77 /* smiley_good.png in Resources */,
 				801E881F1FD0E1CC0016C3BC /* icons8-bus-50.png in Resources */,
 				803F1F061FCE10A800322F77 /* smiley_sad.png in Resources */,
+				8047D9AC1FDF6D3900C52184 /* avatar_f.png in Resources */,
 				80DA33C91F826C0C003D9CD3 /* LaunchScreen.storyboard in Resources */,
 				80DA33C61F826C0C003D9CD3 /* Assets.xcassets in Resources */,
+				8047D9AD1FDF6D3900C52184 /* avatar_m.png in Resources */,
 				801E88111FD0B8A30016C3BC /* peopleTalk.png in Resources */,
 				801E881D1FD0E1CC0016C3BC /* icons8-taxi-50.png in Resources */,
 				801E881E1FD0E1CC0016C3BC /* icons8-train-filled-50.png in Resources */,
@@ -420,12 +447,14 @@
 				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
 				"${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResearchKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -489,14 +518,19 @@
 				801E88401FD107180016C3BC /* TaxiSurveyTask.swift in Sources */,
 				80CC844E1F8C69D300E2EE24 /* BusMapViewController.swift in Sources */,
 				80B258601F96C55B00105B07 /* BusLines.swift in Sources */,
+				8047D9A91FDF69D300C52184 /* SideMenuTableViewController.swift in Sources */,
 				80EDECCA1F97F69C00F43388 /* UiColorFromRGB.swift in Sources */,
 				801E883E1FD1059F0016C3BC /* BusReportViewController.swift in Sources */,
 				801E88191FD0D3010016C3BC /* ReportNavigationController.swift in Sources */,
+				8047D9A71FDF657D00C52184 /* SideMenuViewController.swift in Sources */,
+				80B0B3D51FE0709600D13419 /* ProfileViewController.swift in Sources */,
 				80E692971F827AFB0005D6D3 /* BusLines.xcdatamodeld in Sources */,
 				803178A01F8B8F2400C6A337 /* AppDelegate.swift in Sources */,
 				80E692901F8277750005D6D3 /* UserLocations.xcdatamodeld in Sources */,
 				803F1F081FCE11D300322F77 /* SampleData.swift in Sources */,
+				8047D9A31FDF59CD00C52184 /* UserDefaultsManager.swift in Sources */,
 				80CC84501F8C6A8500E2EE24 /* StoryboardSupport.swift in Sources */,
+				8047D9A51FDF5C4D00C52184 /* NetworkManager.swift in Sources */,
 				801E88421FD109240016C3BC /* TaxiReportViewController.swift in Sources */,
 				801E883A1FD0FC0B0016C3BC /* TrainReportViewController.swift in Sources */,
 			);

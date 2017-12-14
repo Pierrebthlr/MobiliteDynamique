@@ -18,7 +18,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         let locationManager = LocationManager.shared
+                
+        if (!UserDefaultsManager.isInitialiazed)
+        {
+            UserDefaultsManager.name = "Guest"
+            UserDefaultsManager.gender = "Not Specify"
+            UserDefaultsManager.isInitialiazed = true
+            print(UserDefaultsManager.name)
+
+            
+        }
+        else {
+            print("déjà initialisé")
+            print(UserDefaultsManager.name)
+
+        }
         locationManager.requestAlwaysAuthorization()
+        
+        
         
         application.statusBarStyle = .lightContent
         return true

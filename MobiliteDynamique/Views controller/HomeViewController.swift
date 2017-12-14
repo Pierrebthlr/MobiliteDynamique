@@ -8,8 +8,11 @@
 
 import UIKit
 import CoreLocation
+import SideMenu
+
 
 class HomeViewController: UIViewController {
+        
     @IBOutlet weak var viewLeft: UIView!
     @IBOutlet weak var smiley: UIImageView!
     @IBOutlet weak var viewRight: UIView!
