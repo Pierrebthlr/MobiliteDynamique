@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         let locationManager = LocationManager.shared
-                
+        UserDefaultsManager.gender = "Not Specify"
+        
         if (!UserDefaultsManager.isInitialiazed)
         {
             UserDefaultsManager.name = "Guest"
