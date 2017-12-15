@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreLocation
 
 //let sharedUser =  UserDefaults.standard
 
@@ -15,6 +16,7 @@ class UserDefaultsManager {
     private static let nameKey = "nameKey"
     private static let isInitialiazedKey = "isInitialiazedKey"
     private static let genderKey = "genderKey"
+    private static let locationKey = "locationKey"
 
 
     
@@ -44,6 +46,16 @@ class UserDefaultsManager {
         }
         set {
             UserDefaults.standard.set(newValue, forKey: genderKey)
+        }
+        
+    }
+    
+    static var location : CLLocation {
+        get {
+            return UserDefaults.standard.object(forKey:  locationKey)! as! CLLocation
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: locationKey)
         }
         
     }

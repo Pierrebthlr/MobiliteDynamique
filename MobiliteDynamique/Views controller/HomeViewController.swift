@@ -19,7 +19,18 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var dataSwitch: UISwitch!
     @IBOutlet weak var dataLabel: UILabel!
     
+    @IBOutlet weak var statusButton: UIButton!
     @IBOutlet weak var newTripView: UIView!
+   
+    @IBOutlet weak var StatusLabel: UILabel!
+    
+    @IBAction func sharePressed(_ sender: Any) {
+        let activityVC = UIActivityViewController(activityItems: ["https://play.google.com/store/apps/details?id=it.sadem.fr.mobilitaDinAMICA&hl=fr"], applicationActivities: nil)
+        activityVC.popoverPresentationController?.sourceView = self.view
+        
+        self.present(activityVC, animated: true, completion: nil)
+
+    }
     
     let blueColor = UIColor.color(fromHexString: "#87E9C9")
     let redColor =  UIColor.color(fromHexString: "#E9866E")
@@ -31,9 +42,10 @@ class HomeViewController: UIViewController {
     public var distance = Measurement(value: 0, unit: UnitLength.meters)
 
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         drawShadow(view: viewLeft)
         drawShadow(view: viewRight)
@@ -99,9 +111,52 @@ class HomeViewController: UIViewController {
     private func stopCollectLocation() {
         locationManager.stopUpdatingLocation()
     }
+    
+    func changeStatus(newStatus : Int)
+    {
+        var newStatusLabel : String
+        switch(newStatus)
+        {
+        case 0: newStatusLabel = "Waiting"
+        case 1: newStatusLabel = "Public Transport"
+        case 2: newStatusLabel = "Using Bike"
+        case 3: newStatusLabel = "Using Car"
+        case 4: newStatusLabel = "Walking"
+        case 5: newStatusLabel = "Start a new trip"
+        default:
+            newStatusLabel = "Stop"
+        }
+        
+        StatusLabel.text = newStatusLabel
+        if (newStatus != 5)
+        {
+            StatusLabel.textColor = UIColor.black
+            statusButton.imageView?.image = UIImage(named: "stopStatus.png")
+                saveTrip(newStatus : newStatus)
+        }
+        else
+        {
+            StatusLabel.textColor = UIColor.color(fromHexString: "#45CB96")
+        }
+    }
+    
+    private func saveTrip(newStatus : Int ) {
+        
+        let newTravel = Travel(context: CoreDataStack.context)
+        
+        newTravel.mode = Int16(newStatus)
+        newTravel.timestamp = Date()
+        
+        CoreDataStack.saveContext()
+        
+        print (newTravel)
+        }
 
-
+    
 }
+
+
+
 
 extension HomeViewController: CLLocationManagerDelegate {
     
